@@ -948,5 +948,581 @@
       { "text": "This is True", "correct": false },
       { "text": "This is False", "correct": true }
     ]
+  },
+    {
+    "id": "NI-092",
+    "source": "Nautical Institute",
+    "question": "What is true of field arrival trials? (Choose all that apply)",
+    "answers": [
+      {
+        "text": "They should be carried out on arrival at the field and conducted outside the 500-metre or other safety zone.",
+        "correct": true
+      },
+      {
+        "text": "They are really only for the training new DP operators and not needed to be conducted regularly.",
+        "correct": false
+      },
+      {
+        "text": "They can confirm the performance of the DP system and can validate and verify the configuration.",
+        "correct": true
+      },
+      {
+        "text": "They can help prevent DP incidents.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-093",
+    "source": "Nautical Institute",
+    "question": "Checks should be repeated when the vessel returns to the field after an absence of more than",
+    "answers": [
+      {
+        "text": "24 days",
+        "correct": false
+      },
+      {
+        "text": "24 hours",
+        "correct": true
+      },
+      {
+        "text": "72 hours",
+        "correct": false
+      },
+      {
+        "text": "7 days",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-094",
+    "source": "Nautical Institute",
+    "question": "To ensure the control station is set up correctly, what should be the goal of testing?",
+    "answers": [
+      {
+        "text": "The Independent Joystick can be operated by anyone that is on the bridge at any time.",
+        "correct": false
+      },
+      {
+        "text": "The Independent Joystick is able to be configured within 1 hour of switchover.",
+        "correct": false
+      },
+      {
+        "text": "All operators can competently and immediately take control of the Independent Joystick and manoeuvre the vessel.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-095",
+    "source": "Nautical Institute",
+    "question": "When conducting closed bus operations, which is true?",
+    "answers": [
+      {
+        "text": "DP2 guidelines encourage running with closed bus tie(s) and this does not need to be approached with caution because it always saves fuel.",
+        "correct": false
+      },
+      {
+        "text": "To remain in compliance with DP2 guidelines sufficient generators must be running and connected to each bus section to allow for the possibility of worst case failure.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-096",
+    "source": "Nautical Institute",
+    "question": "DP3 vessels always require___breakers between bus sections to ensure that the section of bus that crosses the A60 boundary can be made dead.",
+    "answers": [
+      {
+        "text": "six",
+        "correct": false
+      },
+      {
+        "text": "four",
+        "correct": false
+      },
+      {
+        "text": "two",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-097",
+    "source": "Nautical Institute",
+    "question": "Where should you be able to find the company AND charter's policy on open or closed bus tie operations?",
+    "answers": [
+      {
+        "text": "In the CAM and/or TAM part of the ASOG",
+        "correct": true
+      },
+      {
+        "text": "In the contract between charterer and vessel owner",
+        "correct": false
+      },
+      {
+        "text": "In the DP operations checklists",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-098",
+    "source": "Nautical Institute",
+    "question": "What is a bus tie breaker used for?",
+    "answers": [
+      {
+        "text": "To separate the switchboards into their redundant groups.",
+        "correct": true
+      },
+      {
+        "text": "To feed thrusters and generators",
+        "correct": false
+      },
+      {
+        "text": "To connect mission specific equipment to the main power supply.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-099",
+    "source": "Nautical Institute",
+    "question": "Decisions to close bus ties from an environmental perspective should rely on:",
+    "answers": [
+      {
+        "text": "specific considerations, analysis and testing being undertaken to ensure the DP system redundancy concept remains intact.",
+        "correct": true
+      },
+      {
+        "text": "appearances of environmental sustainability and DP system redundancy is not as important.",
+        "correct": false
+      },
+      {
+        "text": "DP system redundancy only because focusing on environmental sustainability is always unsafe.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-100",
+    "source": "Nautical Institute",
+    "question": "What do targetless laser systems rely on to build up a map of the surface it is mapping?",
+    "answers": [
+      {
+        "text": "A high sided constant flat surface",
+        "correct": false
+      },
+      {
+        "text": "Structures that provide a changing profile",
+        "correct": true
+      },
+      {
+        "text": "A steel structure providing a strong radar echo",
+        "correct": false
+      },
+      {
+        "text": "A constant reflection wave length",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-101",
+    "source": "Nautical Institute",
+    "question": "Reflectors placed on a structure need what form of maintenance?",
+    "answers": [
+      {
+        "text": "Lubrication of the rotation device",
+        "correct": false
+      },
+      {
+        "text": "Cleaning of the reflectors",
+        "correct": true
+      },
+      {
+        "text": "Checking of gas tight integrity and regular checks of the power supply",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-102",
+    "source": "Nautical Institute",
+    "question": "Operating range is greatly reduced due to: (Choose all that apply)",
+    "answers": [
+      {
+        "text": "snow and heavy rain",
+        "correct": true
+      },
+      {
+        "text": "clouds",
+        "correct": false
+      },
+      {
+        "text": "fog",
+        "correct": true
+      },
+      {
+        "text": "strong wind",
+        "correct": false
+      },
+      {
+        "text": "phase of the moon",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-103",
+    "source": "Nautical Institute",
+    "question": "What is the typical maximum range of a laser based system?",
+    "answers": [
+      {
+        "text": "Up to 2000 metres",
+        "correct": false
+      },
+      {
+        "text": "200 to 250 metres",
+        "correct": true
+      },
+      {
+        "text": "500 to 1000 metres",
+        "correct": false
+      },
+      {
+        "text": "50 to 100 metres",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-104",
+    "source": "Nautical Institute",
+    "question": "What does the laser system use to measure the range of a reflector?",
+    "answers": [
+      {
+        "text": "The frequency of the wave",
+        "correct": false
+      },
+      {
+        "text": "The speed of sound",
+        "correct": false
+      },
+      {
+        "text": "Lapsed time of the reflection.",
+        "correct": true
+      },
+      {
+        "text": "The beam wave length",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-105",
+    "source": "Nautical Institute",
+    "question": "The triplex system may not comply with requirements for equipment class:",
+    "answers": [
+      {
+        "text": "3",
+        "correct": true
+      },
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-106",
+    "source": "Nautical Institute",
+    "question": "Which of the following controller arrangements would be suitable for a DP equipment class 3 vessel?",
+    "answers": [
+      {
+        "text": "Three simplex controllers installed in different A60 zones.",
+        "correct": false
+      },
+      {
+        "text": "Triplex controllers installed in an instrument room with A60 bulkheads.",
+        "correct": false
+      },
+      {
+        "text": "Duplex controllers and a simplex backup controller in a different A60 zone.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-107",
+    "source": "Nautical Institute",
+    "question": "If a position reference fails... (Choose all that apply)",
+    "answers": [
+      {
+        "text": "There should be an audible alarm.",
+        "correct": true
+      },
+      {
+        "text": "There is no requirement for an alarm.",
+        "correct": false
+      },
+      {
+        "text": "The alarm should be recorded.",
+        "correct": true
+      },
+      {
+        "text": "There should be a visual alarm.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-108",
+    "source": "Nautical Institute",
+    "question": "According to the IMO guidelines the DP operator stations should be located...",
+    "answers": [
+      {
+        "text": "Adjacent to the instrument room.",
+        "correct": false
+      },
+      {
+        "text": "Close to the messroom.",
+        "correct": false
+      },
+      {
+        "text": "Where the operator has a good view of the III vessel's exterior limits and the surrounding area.",
+        "correct": true
+      },
+      {
+        "text": "In the wheelhouse.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-109",
+    "source": "Nautical Institute",
+    "question": "SIMOPS (simultaneous operations) are described as...",
+    "answers": [
+      {
+        "text": "the potential clash of activities which turn out fine.",
+        "correct": false
+      },
+      {
+        "text": "the potential clash of activities which could bring about an undesired event or set of circumstances.",
+        "correct": true
+      },
+      {
+        "text": "the potential coordination of activities which could bring about a desired event or set of circumstances.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-110",
+    "source": "Nautical Institute",
+    "question": "Issues that contribute to SIMOPS (Choose all that apply)",
+    "answers": [
+      {
+        "text": "Coordination",
+        "correct": false
+      },
+      {
+        "text": "Failure impacts",
+        "correct": true
+      },
+      {
+        "text": "Over-communication",
+        "correct": false
+      },
+      {
+        "text": "Environmental impacts",
+        "correct": true
+      },
+      {
+        "text": "Schedule clashes",
+        "correct": true
+      },
+      {
+        "text": "Interference between platform operations and vessel operations",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-111",
+    "source": "Nautical Institute",
+    "question": "Is it acceptable to rely on satellite based position references when in deep and/or open water?",
+    "answers": [
+      {
+        "text": "In deep and/or open water, it is unacceptable to depend on satellite-based position references.",
+        "correct": false
+      },
+      {
+        "text": "In deep and/or open water, if there is an inability to maintain position and/or heading are low, it is acceptable to rely on satellite based position references.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-112",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? DP is now a mandatory requirement of many offshore assets' safety zones.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-113",
+    "source": "Nautical Institute",
+    "question": "You are operating according to DP 2 equipment class. The vessel is in close proximity to structures and installations. How many independent position reference systems should be provided?",
+    "answers": [
+      {
+        "text": "Two",
+        "correct": false
+      },
+      {
+        "text": "Three",
+        "correct": true
+      },
+      {
+        "text": "One",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-114",
+    "source": "Nautical Institute",
+    "question": "You are operating according to DP 2 equipment class. The vessel is in close proximity to structures and installations. How many different measurement principles must these position reference systems be based on?",
+    "answers": [
+      {
+        "text": "One",
+        "correct": false
+      },
+      {
+        "text": "Two",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-115",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? It is unacceptable to reduce tow tension in order to assist station keeping.",
+    "answers": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-116",
+    "source": "Nautical Institute",
+    "question": "Each SIMOPS/interface documentation should... (Choose all that apply)",
+    "answers": [
+      {
+        "text": "Only be developed for a few operations that may cause trouble",
+        "correct": false
+      },
+      {
+        "text": "Identify which activities are permissible when conducted simultaneously",
+        "correct": true
+      },
+      {
+        "text": "Contain a validation exercise",
+        "correct": true
+      },
+      {
+        "text": "Be developed on a discrete basis for various phases of work",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-117",
+    "source": "Nautical Institute",
+    "question": "Why should a kick-off meeting be arranged for all parties?",
+    "answers": [
+      {
+        "text": "To make sure the scope of work excludes smaller, unimportant operations.",
+        "correct": false
+      },
+      {
+        "text": "So the scope of work for the operations can be drawn up.",
+        "correct": true
+      },
+      {
+        "text": "So everyone can meet who will be conducting the operations.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-118",
+    "source": "Nautical Institute",
+    "question": "Regular communication between all involved parties during SIMOPS includes: (Choose all that apply)",
+    "answers": [
+      {
+        "text": "Daily meetings",
+        "correct": true
+      },
+      {
+        "text": "Emergency communications",
+        "correct": true
+      },
+      {
+        "text": "Change control",
+        "correct": true
+      },
+      {
+        "text": "Choose all that apply",
+        "correct": true
+      },
+      {
+        "text": "Lunch",
+        "correct": false
+      },
+      {
+        "text": "Permit to work / authorisations",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-119",
+    "source": "Nautical Institute",
+    "question": "Why undertake a close out process?",
+    "answers": [
+      {
+        "text": "So the company can capture any lessons learnt.",
+        "correct": true
+      },
+      {
+        "text": "A close out serves no purpose.",
+        "correct": false
+      },
+      {
+        "text": "So everyone knows the SIMOPS is done.",
+        "correct": false
+      }
+    ]
   }
 ]
