@@ -1,0 +1,439 @@
+[
+  {
+    "id": "E-001",
+    "source": "Exam",
+    "question": "A Thruster malfunction may best be detected by observing which of the following?",
+    "answers": [
+      {
+        "text": "A Thruster demand and feedback data.",
+        "correct": true
+      },
+      {
+        "text": "B Power plant output.",
+        "correct": false
+      },
+      {
+        "text": "C Noise and vibration levels from the thrusters.",
+        "correct": false
+      },
+      {
+        "text": "D Thrust output over time.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-002",
+    "source": "Exam",
+    "question": "During a Class 2 Operation, output from 1 of 2 bow tunnel thrusters is observed to be frozen at 30% thrust to Port. Thrust levels on the other tunnel thruster is changing constantly. Heading and Position errors are within limits. The DPO should:",
+    "answers": [
+      {
+        "text": "A Stop DP operations and move the vessel to a safe location to effect thruster repairs.",
+        "correct": true
+      },
+      {
+        "text": "B Have the engineers stop the thruster and repair while DP operations continue.",
+        "correct": false
+      },
+      {
+        "text": "C Do nothing as heading/position errors are within limits.",
+        "correct": false
+      },
+      {
+        "text": "D Keep using the faulty thruster, monitor heading/position and stop DP operations if either gets beyond limits.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-003",
+    "source": "Exam",
+    "question": "The data taken into the mathematical model for the vessel which is above the waterline, (i.e. aerodynamic model) is affected by?",
+    "answers": [
+      {
+        "text": "A The direction of the vessel move.",
+        "correct": false
+      },
+      {
+        "text": "B The speed of the vessel move.",
+        "correct": false
+      },
+      {
+        "text": "C Heave and Pitch.",
+        "correct": false
+      },
+      {
+        "text": "D The wind direction and strength in relation to the ship's head.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "E-004",
+    "source": "Exam",
+    "question": "The data taken into the DP mathematical model is a combination of calculated and real time forces. What is the real time force that is used?",
+    "answers": [
+      {
+        "text": "A Surge, sway and yaw.",
+        "correct": false
+      },
+      {
+        "text": "B The wind direction and strength in relation to the ships head.",
+        "correct": true
+      },
+      {
+        "text": "C The current.",
+        "correct": false
+      },
+      {
+        "text": "D The environment.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-005",
+    "source": "Exam",
+    "question": "What movement is defined as heading control?",
+    "answers": [
+      {
+        "text": "A Roll",
+        "correct": false
+      },
+      {
+        "text": "B Sway",
+        "correct": false
+      },
+      {
+        "text": "C Yaw",
+        "correct": true
+      },
+      {
+        "text": "D Heave",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-006",
+    "source": "Exam",
+    "question": "In fog conditions at a range of 100m which position reference system will you not be able to use?",
+    "answers": [
+      {
+        "text": "A Laser",
+        "correct": true
+      },
+      {
+        "text": "B Artemis",
+        "correct": false
+      },
+      {
+        "text": "C FMCW Radar systems",
+        "correct": false
+      },
+      {
+        "text": "D Inertia navigation systems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-007",
+    "source": "Exam",
+    "question": "One of 3 bow tunnel thrusters on a Class 2 DP vessel fails to zero thrust while the vessel is conducting diving operations. The DPO should advise dive control and:",
+    "answers": [
+      {
+        "text": "A Imediately change to manual control.",
+        "correct": false
+      },
+      {
+        "text": "B Deselect 1 of the 2 remaining bow thruster to see if the vessel holds heading/position.",
+        "correct": false
+      },
+      {
+        "text": "C Safely discontinue operations as a further failure could mean loss of heading /position.",
+        "correct": true
+      },
+      {
+        "text": "D Continue operations as the redundancy built into a Class 2 vessel allows operations to continue after a single thruster failure.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-008",
+    "source": "Exam",
+    "question": "To set up a DP Vessel in the Auto Position Mode, the minimum sensors required are:",
+    "answers": [
+      {
+        "text": "A At least one gyro and one PRS enabled.",
+        "correct": true
+      },
+      {
+        "text": "B At least two gyros with no errors enabled.",
+        "correct": false
+      },
+      {
+        "text": "C At least three PRS with Median Test enabled.",
+        "correct": false
+      },
+      {
+        "text": "D At least two gyros and three PRS enabled.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-009",
+    "source": "Exam",
+    "question": "Hydro-acoustic range measurements can be affected by:",
+    "answers": [
+      {
+        "text": "A Salinity",
+        "correct": true
+      },
+      {
+        "text": "B Heavy snowfall",
+        "correct": false
+      },
+      {
+        "text": "C Thunder",
+        "correct": false
+      },
+      {
+        "text": "D Night time operations",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-010",
+    "source": "Exam",
+    "question": "Classification Societies require a Power Management System for which DP Classes?",
+    "answers": [
+      {
+        "text": "A DP Class 2 and 3.",
+        "correct": true
+      },
+      {
+        "text": "B DP Class 1 and 2.",
+        "correct": false
+      },
+      {
+        "text": "C DP Class 3 only.",
+        "correct": false
+      },
+      {
+        "text": "D DP Classes 1, 2 and 3.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-011",
+    "source": "Exam",
+    "question": "Is a drift test accurate?",
+    "answers": [
+      {
+        "text": "A Drift tests are not accurate at all.",
+        "correct": false
+      },
+      {
+        "text": "B The drift test done at 500 meters is a formality and has no value at all.",
+        "correct": false
+      },
+      {
+        "text": "C If done properly a drift test is accurate but only for the location the vessel is in when completed.",
+        "correct": true
+      },
+      {
+        "text": "D A drift test can be wildly inaccurate even if done correctly.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-012",
+    "source": "Exam",
+    "question": "When steaming to a new worksite what waypoint would you use?",
+    "answers": [
+      {
+        "text": "A A waypoint which can never be inside the 500 meter zone of the rig.",
+        "correct": true
+      },
+      {
+        "text": "B Always use the rig as a waypoint as it makes the ECDIS easier to operate.",
+        "correct": false
+      },
+      {
+        "text": "C Whatever waypoint which will save the most time.",
+        "correct": false
+      },
+      {
+        "text": "D A waypoint which will bring the vessel as close to the location as possible.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-013",
+    "source": "Exam",
+    "question": "What is 'spinning reserve'?",
+    "answers": [
+      {
+        "text": "A Amount of thrust that is not being used.",
+        "correct": false
+      },
+      {
+        "text": "B The power available without needing to start an extra generator.",
+        "correct": true
+      },
+      {
+        "text": "C The 2nd bow thruster.",
+        "correct": false
+      },
+      {
+        "text": "D The power available if you started the offline generator.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-014",
+    "source": "Exam",
+    "question": "The enviromental forces acting on a DP vessel is said to be all the remaining forces acting on that vessel once the forces from one particular sensor has been taken into account, what sensor is this referring to?",
+    "answers": [
+      {
+        "text": "A VRU",
+        "correct": false
+      },
+      {
+        "text": "B Overall power availability",
+        "correct": false
+      },
+      {
+        "text": "C Wind",
+        "correct": true
+      },
+      {
+        "text": "D Combined thruster force",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-015",
+    "source": "Exam",
+    "question": "During ROV operations, a bow thruster feedback signal indicates that #1 bow tunnel thrusters has failed to full force. The vessel is not holding heading. The DPO should:",
+    "answers": [
+      {
+        "text": "A Be prepared to activate the emergency stop for the affected thruster if required.",
+        "correct": true
+      },
+      {
+        "text": "B Inform the electrician and ask to have the problem fixed.",
+        "correct": false
+      },
+      {
+        "text": "C Advise the Master of the problem and keep working.",
+        "correct": false
+      },
+      {
+        "text": "D Deselect the thruster with the faulty feedback from the DP Operator Station and continoue normal operations.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-016",
+    "source": "Exam",
+    "question": "A DP Class 2 or 3 vessel is fitted with four Position Reference Systems (PRS); two DGNSS, 1 Taut Wire and 1 Laser system. In this instance, why should the DPO prefer to consider the two DGNSS as just one PRS?",
+    "answers": [
+      {
+        "text": "Common-mode failures may occur to all DGNSS systems, whereby one event could result in a loss of all DGNSS position references.",
+        "correct": true
+      },
+      {
+        "text": "B DGNSS systems are less reliable and accurate than surface systems.",
+        "correct": false
+      },
+      {
+        "text": "C The DP Classification societies require this.",
+        "correct": false
+      },
+      {
+        "text": "D This is required by the IMO Equipment Class rules.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-017",
+    "source": "Exam",
+    "question": "When referring to DP Equipment Class, the term 'Redundancy' means:",
+    "answers": [
+      {
+        "text": "A Any DP Class 1 vessel.",
+        "correct": false
+      },
+      {
+        "text": "The ability of a DP vessel to maintain position and heading subsequent to a single failure in any part of the DP system.",
+        "correct": true
+      },
+      {
+        "text": "C The vessel is unable to maintain position and heading following any single point failure.",
+        "correct": false
+      },
+      {
+        "text": "D The DP Operator may be in danger of losing his job.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-018",
+    "source": "Exam",
+    "question": "What is preferential tripping?",
+    "answers": [
+      {
+        "text": "A When the power management system trips off navigational equipment.",
+        "correct": false
+      },
+      {
+        "text": "B When the power management system trips off non essential loads such as cabin air conditioning.",
+        "correct": true
+      },
+      {
+        "text": "C When the power management system trips off a thruster using bias mode.",
+        "correct": false
+      },
+      {
+        "text": "D When the power management system trips off the thruster using the most power.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "E-019",
+    "source": "Exam",
+    "question": "Engine room manning during DP operations should be as follows:",
+    "answers": [
+      {
+        "text": "A It is entirely up to the chief engineer whether to keep the engine room manned or not.",
+        "correct": false
+      },
+      {
+        "text": "B It is entirely up to the master as to whether the engine room must be manned for DP operations.",
+        "correct": false
+      },
+      {
+        "text": "C The Chief engineer shall ensure the engine room is manned and in communication with the bridge.",
+        "correct": true
+      },
+      {
+        "text": "D If the vessel is certified to have an unmanned engine room then it is not required during DP operations.",
+        "correct": false
+      }
+    ]
+  }
+]
