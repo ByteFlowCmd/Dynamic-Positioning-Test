@@ -1,0 +1,952 @@
+[
+  {
+    "id": "NI-001",
+    "source": "Nautical Institute",
+    "question": "Select the correct statement.",
+    "answers": [
+      {
+        "text": "IMO MSC/Circ.1 1580 Guidelines for Vessels and Units with DP systems makes clear that the requirements for DP 2 & 3 vessels are the use of three position reference systems based on three different principles suitable for the operating conditions.",
+        "correct": false
+      },
+      {
+        "text": "IMO MSC/Circ.1 1580 Guidelines for Vessels and Units with DP systems makes clear that the requirements for DP 2 & 3 vessels are the use of two position reference systems based on the same principles suitable for the operating conditions.",
+        "correct": false
+      },
+      {
+        "text": "IMO MSC/Circ.1 1580 Guidelines for Vessels and Units with DP systems makes clear that the requirements for DP 2 & 3 vessels are the use of three position reference systems based on at least two different principles suitable for the operating conditions.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "NI-002",
+    "source": "Nautical Institute",
+    "question": "Microwave radar position reference sensors are particularly susceptible to interference by rain / fog / snow.",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-003",
+    "source": "Nautical Institute",
+    "question": "The depth of the water that the DP vessel is operating in has no bearing on reliable station-keeping.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-004",
+    "source": "Nautical Institute",
+    "question": "From the two options, which system is unaffected by weather conditions?",
+    "answers": [
+      { "text": "Global Navigation Satellite Systems", "correct": false },
+      { "text": "Microwave Radar Systems", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-005",
+    "source": "Nautical Institute",
+    "question": "Acoustic positioning systems have been generally designed specifically for operating in deep water.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-006",
+    "source": "Nautical Institute",
+    "question": "The Master / OIM has overall responsibility and authority for the safety of the vessel, all onboard and for the protection of the marine environment.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-007",
+    "source": "Nautical Institute",
+    "question": "For the most vessels the worst case failure is the partial loss of several redundant groups.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-008",
+    "source": "Nautical Institute",
+    "question": "5 yearly periodical DP trials only need to meet the IMO requirements laid down in the Class society requirements.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-009",
+    "source": "Nautical Institute",
+    "question": "Which of the following are aims of the DP Annual Trial Programme?",
+    "answers": [
+      { "text": "Meet the testing and survey requirements of IMO MSC Circ.645 / MSC 1 Circ. 1580", "correct": false },
+      { "text": "Verify the level of critical redundancy established by the FMEA", "correct": false },
+      { "text": "Verify the effectiveness of essential protective functions and alarms", "correct": false },
+      { "text": "All of the above", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-010",
+    "source": "Nautical Institute",
+    "question": "IMCA recommends that annual trials be independently witnessed by someone ___ day-to-day operational control or responsibility for the DP system and vessel.",
+    "answers": [
+      { "text": "Closely involved in", "correct": false },
+      { "text": "Sufficiently removed from", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-011",
+    "source": "Nautical Institute",
+    "question": "Individual Class societies may have more stringent rules for definition of single faults.",
+    "answers": [
+      { "text": "No, Class societies have less stringent rules", "correct": false },
+      { "text": "Class societies don’t define single faults", "correct": false },
+      { "text": "Yes, that’s correct", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-012",
+    "source": "Nautical Institute",
+    "question": "Which of these questions should be part of DPO operational planning?",
+    "answers": [
+      { "text": "Who is on the crew for the next vessel mission?", "correct": false },
+      { "text": "What fixed and mobile hazards may be expected in and around the worksite?", "correct": true },
+      { "text": "What environmental conditions, including weather, are expected in the area?", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-013",
+    "source": "Nautical Institute",
+    "question": "The correct vessel configuration for a particular operation is identified in…",
+    "answers": [
+      { "text": "BBC News", "correct": false },
+      { "text": "Capability plots", "correct": false },
+      { "text": "FMEA", "correct": false },
+      { "text": "ASOG", "correct": false },
+      { "text": "IMO", "correct": false },
+      { "text": "CAM or TAM", "correct": true },
+      { "text": "IMCA M220", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-014",
+    "source": "Nautical Institute",
+    "question": "The ASOG may never be modified in the field, it can only be modified once the mission is complete.",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-015",
+    "source": "Nautical Institute",
+    "question": "The vessel owner/operator is never responsible for checking that the familiarization procedure is followed.",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-016",
+    "source": "Nautical Institute",
+    "question": "Standing orders and operational manuals must include clear and fully understood criteria for the suspension of the work in response to...",
+    "answers": [
+      { "text": "Low employee morale", "correct": false },
+      { "text": "Adverse weather conditions", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-017",
+    "source": "Nautical Institute",
+    "question": "Continuity of operational DP knowledge can be assured by:",
+    "answers": [
+      { "text": "Overlapping shift rotation", "correct": false },
+      { "text": "Project and Work Scope Briefing", "correct": false },
+      { "text": "Allocating time for training and familiarisation", "correct": false },
+      { "text": "All of the above", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-018",
+    "source": "Nautical Institute",
+    "question": "SDPOs will have all of the qualifications of a certificated DPO.",
+    "answers": [
+      { "text": "False", "correct": false },
+      { "text": "True", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-019",
+    "source": "Nautical Institute",
+    "question": "The CAM cannot provide guidance on the set speed of vessel rotation and speed of moves.",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-020",
+    "source": "Nautical Institute",
+    "question": "The Chief Engineer should understand the consequences of failures of which systems?",
+    "answers": [
+      { "text": "Position reference systems", "correct": false },
+      { "text": "DP control systems", "correct": false },
+      { "text": "Power distribution", "correct": false },
+      { "text": "All of the above", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-021",
+    "source": "Nautical Institute",
+    "question": "A certificated DPO is always expected to take sole charge of the DP watch.",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-022",
+    "source": "Nautical Institute",
+    "question": "The TAM mode of operation is risk based accepting that a single failure could result in the WCF being exceeded. What does WCF refer to?",
+    "answers": [
+      { "text": "Worst Case Failure", "correct": true },
+      { "text": "Worst Case Failing", "correct": false },
+      { "text": "Worst Case Fault", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-023",
+    "source": "Nautical Institute",
+    "question": "Worst Case Failure (WCF) means?",
+    "answers": [
+      {
+        "text": "The identified single fault in the DP system resulting in minimum detrimental effect on DP capability as determined through the DP FMEA.",
+        "correct": false
+      },
+      {
+        "text": "The identified multiple fault in the DP system resulting in maximum detrimental effect on DP capability as determined through the DP FMEA.",
+        "correct": false
+      },
+      {
+        "text": "The identified single fault in the DP system resulting in maximum detrimental effect on DP capability as determined through the DP FMEA.",
+        "correct": true
+      },
+      {
+        "text": "The identified multiple fault in the DP system resulting in minimum detrimental effect on DP capability as determined through the DP FMEA.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "NI-024",
+    "source": "Nautical Institute",
+    "question": "The DP operators (DPOs) and engineering staff need to know what corrective actions are required should the vessel’s DP system be subjected to a combination of failures.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-025",
+    "source": "Nautical Institute",
+    "question": "The findings of the FMEA should be used to rectify and improve the operation or be incorporated into the operations, emergency and maintenance manuals and procedures of the vessel.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-026",
+    "source": "Nautical Institute",
+    "question": "FMEA Proving Trials are necessary to prove the key principles of a fault-tolerant DP system including:",
+    "answers": [
+      { "text": "Performance, Protection, and Detection", "correct": true },
+      { "text": "Indication, Alarming, and Function Checking", "correct": false },
+      { "text": "Detection, Indication, and Alarming", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-027",
+    "source": "Nautical Institute",
+    "question": "DP Proving Trials can be used in replacement of commissioning and testing programs normally carried out by shipyards or vendors.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-028",
+    "source": "Nautical Institute",
+    "question": "DP FMEA Proving Trials programs are intended to confirm?",
+    "answers": [
+      {
+        "text": "System redundancy and fault tolerance to failures of individual pieces of equipment in the various sub-systems that make up the complete DP system that could or will cause the system to fail completely.",
+        "correct": true
+      },
+      { "text": "That the DP installation is correctly functioning and all systems remain functional on an annual basis.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-029",
+    "source": "Nautical Institute",
+    "question": "Which of the following vessels would have the best DP station-keeping capability?",
+    "answers": [
+      { "text": "A DP2 platform supply vessel", "correct": false },
+      { "text": "A DP3 diving support vessel", "correct": false },
+      { "text": "A DP1 platform supply vessel", "correct": false },
+      { "text": "There is inadequate information to make a judgment", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-030",
+    "source": "Nautical Institute",
+    "question": "You are tasked with selecting a vessel for a critical DP2 operation and want to select the vessel that is least likely to have to abandon operations due to IMO criteria for DP equipment class 2 operations being exceeded. Which of the following capability plots is of most interest to you?",
+    "answers": [
+      { "text": "The ones showing the vessel's capabilities with the most significant thruster out of service.", "correct": false },
+      { "text": "The ones showing the vessel's capabilities after worst-case failure.", "correct": true },
+      { "text": "The ones showing the vessel’s capabilities with all systems intact.", "correct": false },
+      { "text": "None of the above, I would want to compare footprint plots.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-031",
+    "source": "Nautical Institute",
+    "question": "What may affect the accuracy of a microwave position reference?",
+    "answers": [
+      { "text": "Solar flares", "correct": false },
+      { "text": "Heavy snow", "correct": false },
+      { "text": "Interference from X-band radar", "correct": true },
+      { "text": "False reflections from retro-reflective tape.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-032",
+    "source": "Nautical Institute",
+    "question": "Microwave radar systems accurately measure the range and bearing of a vessel relative to a position on an asset using equipment mounted on both the vessel and the asset.",
+    "answers": [
+      { "text": "Fixed or moving", "correct": true },
+      { "text": "Fixed", "correct": false },
+      { "text": "Moving", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-033",
+    "source": "Nautical Institute",
+    "question": "Microwave radar systems accurately measure the _____ and bearing of a vessel.",
+    "answers": [
+      { "text": "Angle", "correct": false },
+      { "text": "Frequency", "correct": false },
+      { "text": "Range", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-034",
+    "source": "Nautical Institute",
+    "question": "General considerations for sensor placement are as follows: (Select the wrong consideration)",
+    "answers": [
+      { "text": "Above sea level to prevent swamping or immersion.", "correct": false },
+      { "text": "Located close to VSAT systems to aid signal quality", "correct": true },
+      { "text": "With an unobstructed view, both vertically and horizontally, in the expected direction of the target.", "correct": false },
+      { "text": "On a flat, rigid, horizontal surface able to support the sensor weight.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-035",
+    "source": "Nautical Institute",
+    "question": "Which of the following vessels would have the best DP station-keeping capability?",
+    "answers": [
+      { "text": "ADP2 platform supply vessel", "correct": false },
+      { "text": "ADP3 diving support vessel", "correct": false },
+      { "text": "ADP1 platform supply vessel", "correct": false },
+      { "text": "There is inadequate information to make a judgment", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-036",
+    "source": "Nautical Institute",
+    "question": "You are tasked with selecting a vessel for a critical DP2 operation and want to select the vessel that is least likely to have to abandon operations due to IMO criteria for DP equipment class 2 being exceeded.",
+    "answers": [
+      { "text": "None of the above, I would want to compare footprint plots.", "correct": false },
+      { "text": "The ones showing the vessels’ capabilities with the most significant thruster out of service.", "correct": false },
+      { "text": "The ones showing the vessels’ capabilities with all systems intact.", "correct": false },
+      { "text": "The ones showing the vessels’ capabilities after worse case failure.", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-037",
+    "source": "Nautical Institute",
+    "question": "What may affect the accuracy of a microwave position reference?",
+    "answers": [
+      { "text": "Solar flares", "correct": false },
+      { "text": "Heavy snow", "correct": false },
+      { "text": "Interference from X-band radar.", "correct": true },
+      { "text": "False reflections from retro-reflective tape.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-038",
+    "source": "Nautical Institute",
+    "question": "Microwave radar systems accurately measure the range and bearing of a vessel relative to a position on an asset using equipment mounted on both the vessel and the asset.",
+    "answers": [
+      { "text": "Fixed or moving", "correct": true },
+      { "text": "Fixed", "correct": false },
+      { "text": "Moving", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-039",
+    "source": "Nautical Institute",
+    "question": "Microwave radar systems accurately measure the ___ and bearing of a vessel.",
+    "answers": [
+      { "text": "Angle", "correct": false },
+      { "text": "Frequency", "correct": false },
+      { "text": "Range", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-040",
+    "source": "Nautical Institute",
+    "question": "General considerations for sensor placement are as follows: (Select the wrong consideration)",
+    "answers": [
+      { "text": "Above sea-level to prevent swamping or immersion.", "correct": false },
+      { "text": "Located close to VSAT systems to aid signal quality.", "correct": true },
+      { "text": "With an unobstructed view, both vertically and horizontally, in the expected direction of the target.", "correct": false },
+      { "text": "On a flat, rigid, horizontal surface able to support the sensor weight.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-041",
+    "source": "Nautical Institute",
+    "question": "Select the two correct statements:",
+    "answers": [
+      { "text": "The DP Operations manual, as required by IMO guidelines, should contain a blackout recovery procedure.", "correct": true },
+      { "text": "IMO guidelines require all DP vessels to have a DP Operations Manual.", "correct": true },
+      {
+        "text": "The DP Operations Manual, as required by IMO guidelines, is provided by the DP control system manufacturer and only contains information on how to operate the DP control system.",
+        "correct": false
+      },
+      { "text": "IMO guidelines require DP2 and DP3 vessels (but not DP1 vessels) to have a DP Operations Manual.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-042",
+    "source": "Nautical Institute",
+    "question": "SELECT THE CORRECT TERM TO MATCH A system failure, environmental or human factor which has caused a loss of redundancy and/or compromised DP capability",
+    "answers": [
+      { "text": "DP undesired event", "correct": true },
+      { "text": "DP incident", "correct": false },
+      { "text": "DP observation", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-043",
+    "source": "Nautical Institute",
+    "question": "SELECT THE CORRECT TERM TO MATCH An event that has not resulted in a loss of redundancy or compromised DP operational capability but is still deemed worthy of sharing.",
+    "answers": [
+      { "text": "DP observation", "correct": true },
+      { "text": "DP undesired event", "correct": false },
+      { "text": "DP incident", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-044",
+    "source": "Nautical Institute",
+    "question": "SELECT THE CORRECT TERM TO MATCH A major system failure, environmental or human factor which has resulted in loss of DP capability.",
+    "answers": [
+      { "text": "DP undesired event", "correct": false },
+      { "text": "DP observation", "correct": false },
+      { "text": "DP incident", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-045",
+    "source": "Nautical Institute",
+    "question": "Which IMCA document is a Guide to DP related documentation for DP vessels?",
+    "answers": [
+      { "text": "IMCA C 002", "correct": false },
+      { "text": "IMCA M 190", "correct": false },
+      { "text": "IMCA M 109", "correct": true },
+      { "text": "IMCA M 166", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-046",
+    "source": "Nautical Institute",
+    "question": "The \"worst case failure design intent\" is the intended and designed worst case failure potential of?",
+    "answers": [
+      { "text": "The mission equipment", "correct": false },
+      { "text": "The DP computers", "correct": false },
+      { "text": "The overall DP system", "correct": true },
+      { "text": "The thrusters", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-047",
+    "source": "Nautical Institute",
+    "question": "The FMEA is a requirement for vessels with equipment class?",
+    "answers": [
+      { "text": "1 & 3 (DP1 & DP3)", "correct": false },
+      { "text": "2 & 3 (DP2 & DP3)", "correct": true },
+      { "text": "1 & 2 (DP1 & DP2)", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-048",
+    "source": "Nautical Institute",
+    "question": "In what circumstances can capability plots be used to compare the abilities of two vessels?",
+    "answers": [
+      { "text": "When the capability plots have been calculated by the same methods and presented in a similar format.", "correct": true },
+      { "text": "When the vessels are owned by the same company.", "correct": false },
+      { "text": "Capability plots should never be used to compare vessels. Use footprint plots instead.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-049",
+    "source": "Nautical Institute",
+    "question": "Which of the following could be used as an indication of a vessel’s ‘position keeping accuracy’ in given weather conditions?",
+    "answers": [
+      { "text": "Footprint plot", "correct": true },
+      { "text": "The vessel DP equipment class", "correct": false },
+      { "text": "Capability plot", "correct": false },
+      { "text": "DP FMEA", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-050",
+    "source": "Nautical Institute",
+    "question": "Which of the following could be used as an indication of a vessel’s ‘position keeping accuracy’ in given weather conditions?",
+    "answers": [
+      { "text": "Footprint plot", "correct": true },
+      { "text": "The vessel DP equipment class", "correct": false },
+      { "text": "Capability plot", "correct": false },
+      { "text": "DP FMEA", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-051",
+    "source": "Nautical Institute",
+    "question": "Which of the following is not a DP Event classification?",
+    "answers": [
+      { "text": "A DP Incident", "correct": false },
+      { "text": "A DP Observation", "correct": false },
+      { "text": "A DP Episode", "correct": true },
+      { "text": "A DP Undersired Event", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-052",
+    "source": "Nautical Institute",
+    "question": "Which of the following were considerations of the IMCA Marine DP Committee?",
+    "answers": [
+      { "text": "There was concern that a fire main was passing through a transformer space.", "correct": false },
+      { "text": "It was questioned wheather the DP alarm should have been yellow tather than blue.", "correct": false },
+      { "text": "A UPS battery endurance tests (30 min check) should be performed with all UPS consumers connected and in use.", "correct": false },
+      { "text": "All the above", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-053",
+    "source": "Nautical Institute",
+    "question": "Which of these are true?",
+    "answers": [
+      { "text": "Classification Societies are not guarantors of safety of life or property at sea or the seaworthiness of a vessel.", "correct": true },
+      { "text": "Classification Societies are guarantors of safety of life or property at sea or the seaworthiness of a vessel.", "correct": false },
+      { "text": "Classification Societies have no control how a vessel is operated and manned and maintained.", "correct": true },
+      { "text": "Classification Societies control how a vessel is operated and manned and maintained.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-054",
+    "source": "Nautical Institute",
+    "question": "The vast majority of commercial ships are built to, and surveyed for, compliance with...",
+    "answers": [
+      { "text": "The standards of shipbuilding unions.", "correct": false },
+      { "text": "The rules of the international financial regulators.", "correct": false },
+      { "text": "The standards laid down by classification societies.", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-055",
+    "source": "Nautical Institute",
+    "question": "What is the first action you need to take before starting the drill?",
+    "answers": [
+      { "text": "Initiating a large position move while in auto position at a high speed.", "correct": false },
+      { "text": "Putting Vessel in a safe location", "correct": true },
+      { "text": "Determine how the risks could be mitigated / managed", "correct": false },
+      { "text": "Check that appropriate alarms are generated", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-056",
+    "source": "Nautical Institute",
+    "question": "Which of these are potential distractions in the workspace during the drill?",
+    "answers": [
+      { "text": "Social media", "correct": true },
+      { "text": "Routine maintenance procedures", "correct": true },
+      { "text": "Alarms sounding", "correct": false },
+      { "text": "Personnel interactions", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-057",
+    "source": "Nautical Institute",
+    "question": "Which of these are positive results you should be looking for in this drill?",
+    "answers": [
+      { "text": "DPO should demonstrate both bringing the vessel under control and moving the vessel away from danger using the DP Joystick or the Manual controls.", "correct": true },
+      { "text": "DPO unable to control the vessel using manual control and refuses to take the drill seriously.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-058",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? A potential result of performing this drill for the DP operation team is appreciation of the potential to stop a thruster in emergency cases using the emergency stops.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-059",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? Vessel owners and operators should establish a structured programme for their employees to participate in DP system drills and training appropriate to their role.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-060",
+    "source": "Nautical Institute",
+    "question": "IMCA M 117 refers to...",
+    "answers": [
+      { "text": "Rules for how to manufacture GPS systems", "correct": false },
+      { "text": "Training and experience of key DP personnel", "correct": true },
+      { "text": "Training all personnel on all vessels in safety measures", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-061",
+    "source": "Nautical Institute",
+    "question": "What are some potential results of performing this drill? (Choose all that apply)",
+    "answers": [
+      { "text": "Learning how to avoid all UPS failures.", "correct": false },
+      { "text": "What event and alarms indicate UPS failures", "correct": true },
+      { "text": "Awareness of the UPS DP supplies segregation (following the redundant groups)", "correct": true },
+      { "text": "Appreciation that internal UPS failures can prevent bypass facilities operating in some designs", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-062",
+    "source": "Nautical Institute",
+    "question": "Which of the following is a good result of this drill?",
+    "answers": [
+      { "text": "System loses position and remaining thrusters do not operate as expected.", "correct": false },
+      { "text": "System allocates thrust so there is no loss of heading or surge control, the vessel maintains position with remaining thrusters.", "correct": true },
+      { "text": "The drill is stopped mid way because not all crew members were made aware of the drill and bring the thrusters back online.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-063",
+    "source": "Nautical Institute",
+    "question": "The full blackout drill should only be performed live.",
+    "answers": [
+      { "text": "This is True.", "correct": false },
+      { "text": "This is False.", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-064",
+    "source": "Nautical Institute",
+    "question": "True or False? Following a review of the blackout exercise and the vessel and crew’s reaction, the different operator (Bridge and/or ECR) reaction(s) is NOT important to consider in this drill.",
+    "answers": [
+      { "text": "This is false.", "correct": true },
+      { "text": "This is only true in some DP emergency drills, not this one.", "correct": false },
+      { "text": "This is always true.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-065",
+    "source": "Nautical Institute",
+    "question": "Items to discuss and consider after this drill include:",
+    "answers": [
+      { "text": "Mission equipment reaction to power loss and power up", "correct": false },
+      { "text": "Awareness of the power system segregation (following the redundant groups)", "correct": false },
+      { "text": "DP system reaction to multiple failures", "correct": false },
+      { "text": "All of the above", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-066",
+    "source": "Nautical Institute",
+    "question": "The mission equipment and DP system may share the same supplies including:",
+    "answers": [
+      { "text": "Ventilation", "correct": false },
+      { "text": "Fresh or Seawater", "correct": false },
+      { "text": "Power", "correct": false },
+      { "text": "Cooling", "correct": false },
+      { "text": "All of the Above (Ventilation, Fresh or Seawater, Power, Cooling)", "correct": true },
+      { "text": "None of the Above", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-067",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? The actual mission and mission equipment never affect the overall DP concept.",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-068",
+    "source": "Nautical Institute",
+    "question": "When working close to moving structures then at least _____ relative position reference systems should be provided in conjunction with an absolute position reference system.",
+    "answers": [
+      { "text": "2", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": false },
+      { "text": "5", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-069",
+    "source": "Nautical Institute",
+    "question": "Where a combination of fixed and relative position reference systems are used and the relative target is free to move then...",
+    "answers": [
+      { "text": "Specialist DP control software is optional to compensate this movement in the station keeping calculation.", "correct": false },
+      { "text": "No DP control software is needed to complete the mission.", "correct": false },
+      { "text": "Specialist DP control software is required to compensate this movement in the station keeping calculation.", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-070",
+    "source": "Nautical Institute",
+    "question": "Diving operations are sensitive to vessel motions (due to the limitations of heave compensation systems for cranes and deployment devices) and water currents (due to limitations in DP capability and the diver’s ability to work in strong currents). Because of this... (Choose all that apply)",
+    "answers": [
+      { "text": "Both surface and seabed referenced systems should be fitted, providing a combination of both absolute and relative references.", "correct": true },
+      {
+        "text": "Taut wires should be positioned to minimise the risk of contact with umbilicals, which may cause wire deflection and to ensure that the clump weight and wire do not obstruct the dive.",
+        "correct": true
+      },
+      { "text": "Surface reference systems are more important than seabed systems.", "correct": false },
+      { "text": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-071",
+    "source": "Nautical Institute",
+    "question": "The time to terminate on DP operations is influenced by: (Choose all that apply)",
+    "answers": [
+      { "text": "Nature of the diver’s worksite", "correct": true },
+      { "text": "ROV brand", "correct": false },
+      { "text": "Environmental conditions", "correct": true },
+      { "text": "Dive depth", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-072",
+    "source": "Nautical Institute",
+    "question": "Umbilical lengths for the divers should prevent approach within ____ of the nearest thruster.",
+    "answers": [
+      { "text": "1m", "correct": false },
+      { "text": "3m", "correct": false },
+      { "text": "5m", "correct": true },
+      { "text": "10m", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-073",
+    "source": "Nautical Institute",
+    "question": "Resetting or repositioning position reference systems during a dive should be",
+    "answers": [
+      { "text": "Avoided.", "correct": true },
+      { "text": "Prohibited.", "correct": false },
+      { "text": "Routine.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-074",
+    "source": "Nautical Institute",
+    "question": "Which of these are true?",
+    "answers": [
+      { "text": "Position references should support both auto position and weathervane modes of DP control where necessary.", "correct": true },
+      { "text": "Position references do not need to support both auto position and weathervane modes of DP control.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-075",
+    "source": "Nautical Institute",
+    "question": "Where the loading facility is free to move then at least ____ relative position reference systems should be provided in conjunction with an absolute position reference system.",
+    "answers": [
+      { "text": "Six", "correct": false },
+      { "text": "Two", "correct": true },
+      { "text": "Four", "correct": false },
+      { "text": "Three", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-076",
+    "source": "Nautical Institute",
+    "question": "The vessel should be capable of following a pre-determined cable lay corridor facilitating the lay operation with continuous or incremental vessel moves at...",
+    "answers": [
+      { "text": "A smooth and predictable rate.", "correct": true },
+      { "text": "An open and sweeping path.", "correct": false },
+      { "text": "An irregular and swift rate.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-077",
+    "source": "Nautical Institute",
+    "question": "Synchronization between vessel speed and cable lay speed is required...",
+    "answers": [
+      { "text": "to maintain correct cable lay tension and catenary.", "correct": true },
+      { "text": "to keep ROVs working properly.", "correct": false },
+      { "text": "only when laying cable in shallow water.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-078",
+    "source": "Nautical Institute",
+    "question": "What is a potential risk of a drift off situation? (Choose all that apply.)",
+    "answers": [
+      { "text": "Damage to equipment", "correct": true },
+      { "text": "Collision with a nearby structure", "correct": true },
+      { "text": "Increased reliance on motion sensors", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-079",
+    "source": "Nautical Institute",
+    "question": "Decisions relating to SOV movements should be made...",
+    "answers": [
+      { "text": "in co-operation between those on the vessel and the structures being serviced.", "correct": true },
+      { "text": "by vessel crew only over which they have sole authority.", "correct": false },
+      { "text": "by the entity administrators whose structures are being serviced.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-080",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? MOC procedures are standardized and there is no need to reach out to the specific vessel operator’s plan.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-081",
+    "source": "Nautical Institute",
+    "question": "One result of this incident was:",
+    "answers": [
+      { "text": "Instructions were put in place on-board this and similar vessels until the vendor remedies the software issue.", "correct": true },
+      { "text": "The software was immediately upgraded and rolled out and the incident was never repeated.", "correct": false },
+      { "text": "The DP software vendor denied any wrongdoing and the crew was disciplined.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-082",
+    "source": "Nautical Institute",
+    "question": "Which of these are true?",
+    "answers": [
+      { "text": "This and similar incidents highlight the need for extensive testing of the software at all stages.", "correct": true },
+      { "text": "This incident shows that there is only need for extensive testing of software before it is released to the users.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-083",
+    "source": "Nautical Institute",
+    "question": "The PPU is a microprocessor-based protection unit containing all of the functions for protecting the generator. The PPU is set up to trip the generator in the case of...",
+    "answers": [
+      { "text": "All of the above. (Reverse power, Over-current, Under-voltage, Short circuit.)", "correct": true },
+      { "text": "Reverse power.", "correct": false },
+      { "text": "Over-current.", "correct": false },
+      { "text": "Under-voltage.", "correct": false },
+      { "text": "Short circuit.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-084",
+    "source": "Nautical Institute",
+    "question": "One problem that occurred was that the PPU software upgrade...",
+    "answers": [
+      { "text": "was not documented.", "correct": true },
+      { "text": "was performed too late.", "correct": false },
+      { "text": "was not downloaded from the internet.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-085",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? This incident was the result of software malfunctioning, setting the switch to emergency.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-086",
+    "source": "Nautical Institute",
+    "question": "Lessons learned from this incident are that the MoC process should include: (Choose all that apply.)",
+    "answers": [
+      { "text": "All equipment has a selection choice to clearly identify the selection and to avoid unnecessary confusion.", "correct": true },
+      { "text": "A periodic review of the completeness of operational checklists prior to and during DP operations.", "correct": true },
+      { "text": "Pay raises for swift crew action.", "correct": false },
+      { "text": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-087",
+    "source": "Nautical Institute",
+    "question": "Is the following statement true or false? In a global navigation system (GNSS) the onboarding receiving equipment cannot processdata from more than one system at the same time.",
+    "answers": [
+      { "text": "False", "correct": true },
+      { "text": "True", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-088",
+    "source": "Nautical Institute",
+    "question": "What does PSR stand for?",
+    "answers": [
+      { "text": "Portable Strength Range", "correct": false },
+      { "text": "Portable Small Radio", "correct": false },
+      { "text": "Pseudo Range", "correct": true },
+      { "text": "Position Reference System", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-089",
+    "source": "Nautical Institute",
+    "question": "Which is true for GPS?",
+    "answers": [
+      { "text": "GPS data is not affected by solar activity", "correct": false },
+      { "text": "GPS data can be severely degraded in equatorial regions by the effects of solar activity.", "correct": true }
+    ]
+  },
+  {
+    "id": "NI-090",
+    "source": "Nautical Institute",
+    "question": "What does SV refer to?",
+    "answers": [
+      { "text": "Sailing Vessel", "correct": false },
+      { "text": "Satelite Vehicle or Space Vehicle", "correct": true },
+      { "text": "Soaring Velocity", "correct": false }
+    ]
+  },
+  {
+    "id": "NI-091",
+    "source": "Nautical Institute",
+    "question": "Before you begin a drill it is not necessary that activities are agreed on and communicated to all participants. Is this statement True or False?",
+    "answers": [
+      { "text": "This is True", "correct": false },
+      { "text": "This is False", "correct": true }
+    ]
+  }
+]

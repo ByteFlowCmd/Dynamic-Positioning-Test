@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Positioning Test - Maritime Exam Preparation</title>
+    <meta name="description" content="Professional Dynamic Positioning (DP) exam preparation platform with comprehensive quiz system for maritime professionals.">
+    <meta name="keywords" content="dynamic positioning, DP exam, maritime exam, nautical institute, kelson exam, marine preparation, DPO training, ship navigation test">
+    <link href="dist/output.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="src/js/app.js"></script>
+</head>
+<body class="min-h-full flex flex-col bg-gray-50 dark:bg-gray-900 transition-colors duration-300" 
+      x-data="quizApp()" 
+      x-init="init()">
+    
+    <!-- Header with Dark Mode Toggle -->
+    <header class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-14">
+                <div class="flex items-center">
+                    <!-- Marine/Ship Icon -->
+                    <svg class="w-6 h-6 mr-2 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    <h1 class="text-xl font-bold text-gray-900 dark:text-white">
+                        Dynamic Positioning Test
+                    </h1>
+                </div>
+                
+                <!-- Dark Mode Toggle -->
+                <button @click="toggleDarkMode()" 
+                        class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+                    <svg x-show="!darkMode" class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                    </svg>
+                    <svg x-show="darkMode" class="w-5 h-5 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full">
+        
+        <!-- Landing Page / Setup Screen -->
+        <div x-show="currentView === 'setup'" 
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0 transform scale-95"
+             x-transition:enter-end="opacity-100 transform scale-100"
+             class="animate-fade-in">
+            
+            <div class="text-center mb-8">
+                <!-- Anchor Icon -->
+                <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full mb-4">
+                    <svg class="w-8 h-8 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2v7c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3V4.5L17.5 10H20l-8-8-8 8h2.5L12 4.5V2z"/>
+                        <path d="M5 19h14v2H5z"/>
+                    </svg>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-3">
+                    Dynamic Positioning Certification Exam
+                </h2>
+                <p class="text-base text-gray-600 dark:text-gray-400">
+                    Select your quiz source and test type to begin your DP certification preparation
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                
+                <!-- Question Source Selection -->
+                <div class="card p-5 animate-slide-up">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                        Question Source
+                    </h3>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-2.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition-colors">
+                            <input type="radio" x-model="selectedSource" value="NI" 
+                                   class="w-4 h-4 text-primary-600 focus:ring-primary-500">
+                            <span class="ml-3 text-sm text-gray-700 dark:text-gray-300">Nautical Institute</span>
+                        </label>
+                        <label class="flex items-center p-2.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition-colors">
+                            <input type="radio" x-model="selectedSource" value="K" 
+                                   class="w-4 h-4 text-primary-600 focus:ring-primary-500">
+                            <span class="ml-3 text-sm text-gray-700 dark:text-gray-300">Kelson</span>
+                        </label>
+                        <label class="flex items-center p-2.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition-colors">
+                            <input type="radio" x-model="selectedSource" value="EX" 
+                                   class="w-4 h-4 text-primary-600 focus:ring-primary-500">
+                            <span class="ml-3 text-sm text-gray-700 dark:text-gray-300">Exam Questions</span>
+                        </label>
+                        <label class="flex items-center p-2.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition-colors">
+                            <input type="radio" x-model="selectedSource" value="ALL" 
+                                   class="w-4 h-4 text-primary-600 focus:ring-primary-500">
+                            <span class="ml-3 text-sm text-gray-700 dark:text-gray-300">All Sources Combined</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Test Type Selection -->
+                <div class="card p-5 animate-slide-up animation-delay-200">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-gray-600 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                        </svg>
+                        Test Type
+                    </h3>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-2.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition-colors">
+                            <input type="radio" x-model="testType" value="30" 
+                                   class="w-4 h-4 text-primary-600 focus:ring-primary-500">
+                            <span class="ml-3 text-sm text-gray-700 dark:text-gray-300">30 Random Questions</span>
+                        </label>
+                        <label class="flex items-center p-2.5 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition-colors">
+                            <input type="radio" x-model="testType" value="all" 
+                                   class="w-4 h-4 text-primary-600 focus:ring-primary-500">
+                            <span class="ml-3 text-sm text-gray-700 dark:text-gray-300">All Questions (Random Order)</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-8">
+                <button @click="startQuiz()" 
+                        :disabled="!selectedSource || !testType"
+                        :class="{'opacity-50 cursor-not-allowed': !selectedSource || !testType}"
+                        class="btn-primary px-8 py-3 text-base">
+                    Start Test →
+                </button>
+            </div>
+        </div>
+
+        <!-- Quiz View -->
+        <div x-show="currentView === 'quiz'" 
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0 transform translate-x-4"
+             x-transition:enter-end="opacity-100 transform translate-x-0"
+             class="max-w-4xl mx-auto">
+            
+            <!-- Progress Bar -->
+            <div class="mb-5">
+                <div class="flex justify-between text-xs text-gray-600 dark:text-gray-400 mb-2">
+                    <span>Question <span x-text="currentQuestionIndex + 1"></span> of <span x-text="questions.length"></span></span>
+                    <span><span x-text="correctAnswers"></span> correct / <span x-text="Math.round((correctAnswers / Math.max(answeredQuestions, 1)) * 100)"></span>%</span>
+                </div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                    <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-2.5 rounded-full transition-all duration-500"
+                         :style="`width: ${((currentQuestionIndex + 1) / questions.length) * 100}%`"></div>
+                </div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="card p-5 mb-5" x-show="currentQuestion">
+                <div class="mb-5">
+                    <span class="inline-block px-2.5 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 rounded-full text-xs font-medium mb-3">
+                        <span x-text="currentQuestion?.source"></span>
+                    </span>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white" x-text="currentQuestion?.question"></h3>
+                    
+                    <!-- Multiple answer hint -->
+                    <div x-show="hasMultipleCorrectAnswers()" class="mt-2 text-xs text-amber-600 dark:text-amber-400 flex items-center">
+                        <svg class="w-3.5 h-3.5 mr-1.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+                        </svg>
+                        Select all correct answers
+                    </div>
+                </div>
+
+                <!-- Answer Options -->
+                <div class="space-y-2.5">
+                    <template x-for="(answer, index) in currentQuestion?.answers" :key="index">
+                        <button @click="toggleAnswer(index)"
+                                :disabled="questionAnswered"
+                                :class="{
+                                    'border-primary-500 bg-primary-50 dark:bg-primary-900/20': selectedAnswers.includes(index) && !questionAnswered,
+                                    'border-green-500 bg-green-50 dark:bg-green-900/20': questionAnswered && answer.correct,
+                                    'border-red-500 bg-red-50 dark:bg-red-900/20': questionAnswered && selectedAnswers.includes(index) && !answer.correct,
+                                    'border-gray-300 dark:border-gray-600': !selectedAnswers.includes(index) && !questionAnswered,
+                                    'opacity-75': questionAnswered && !answer.correct && !selectedAnswers.includes(index)
+                                }"
+                                class="w-full text-left p-3.5 rounded-lg border-2 transition-all duration-200 hover:shadow-md transform hover:scale-[1.01]">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-0.5">
+                                    <div :class="{
+                                            'bg-primary-600': selectedAnswers.includes(index) && !questionAnswered,
+                                            'bg-green-600': questionAnswered && answer.correct,
+                                            'bg-red-600': questionAnswered && selectedAnswers.includes(index) && !answer.correct,
+                                            'bg-white dark:bg-gray-700': !selectedAnswers.includes(index) && !questionAnswered
+                                        }"
+                                        class="w-4 h-4 rounded border-2 border-current flex items-center justify-center">
+                                        <svg x-show="selectedAnswers.includes(index) || (questionAnswered && answer.correct)" 
+                                             class="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-sm text-gray-800 dark:text-gray-200" x-text="answer.text"></span>
+                            </div>
+                        </button>
+                    </template>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex justify-between mt-5">
+                    <button @click="previousQuestion()" 
+                            :disabled="currentQuestionIndex === 0"
+                            :class="{'opacity-50 cursor-not-allowed': currentQuestionIndex === 0}"
+                            class="px-4 py-2 bg-gray-200 text-gray-800 text-sm font-medium rounded-lg hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600 transition-all">
+                        ← Previous
+                    </button>
+                    
+                    <button x-show="!questionAnswered" 
+                            @click="confirmAnswer()"
+                            :disabled="selectedAnswers.length === 0"
+                            :class="{'opacity-50 cursor-not-allowed': selectedAnswers.length === 0}"
+                            class="px-5 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-all">
+                        Confirm Answer
+                    </button>
+                    
+                    <button x-show="questionAnswered && currentQuestionIndex < questions.length - 1" 
+                            @click="nextQuestion()"
+                            class="px-5 py-2 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-all">
+                        Next Question →
+                    </button>
+                    
+                    <button x-show="questionAnswered && currentQuestionIndex === questions.length - 1" 
+                            @click="showResults()"
+                            class="px-5 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-all">
+                        View Results
+                    </button>
+                </div>
+            </div>
+
+            <!-- Statistics Card -->
+            <div class="grid grid-cols-3 gap-3">
+                <div class="card p-4 text-center">
+                    <div class="text-2xl font-bold text-primary-600 dark:text-primary-400" x-text="correctAnswers"></div>
+                    <div class="text-xs text-gray-600 dark:text-gray-400">Correct</div>
+                </div>
+                <div class="card p-4 text-center">
+                    <div class="text-2xl font-bold text-red-600 dark:text-red-400" x-text="answeredQuestions - correctAnswers"></div>
+                    <div class="text-xs text-gray-600 dark:text-gray-400">Incorrect</div>
+                </div>
+                <div class="card p-4 text-center">
+                    <div class="text-2xl font-bold text-gray-600 dark:text-gray-400" x-text="questions.length - answeredQuestions"></div>
+                    <div class="text-xs text-gray-600 dark:text-gray-400">Remaining</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results View -->
+        <div x-show="currentView === 'results'" 
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0 transform scale-95"
+             x-transition:enter-end="opacity-100 transform scale-100"
+             class="max-w-4xl mx-auto">
+            
+            <div class="card p-8 text-center">
+                <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-5">
+                    Test Complete! 🎉
+                </h2>
+                
+                <div class="mb-6">
+                    <div class="text-5xl font-bold mb-2" 
+                         :class="{
+                            'text-green-600': (correctAnswers/questions.length) >= 0.8,
+                            'text-yellow-600': (correctAnswers/questions.length) >= 0.6 && (correctAnswers/questions.length) < 0.8,
+                            'text-red-600': (correctAnswers/questions.length) < 0.6
+                         }">
+                        <span x-text="Math.round((correctAnswers / questions.length) * 100)"></span>%
+                    </div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">
+                        You got <span x-text="correctAnswers"></span> out of <span x-text="questions.length"></span> questions correct
+                    </p>
+                </div>
+                
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-6 mb-6">
+                    <div class="h-6 rounded-full transition-all duration-1000 bg-gradient-to-r"
+                         :class="{
+                            'from-green-400 to-green-600': (correctAnswers/questions.length) >= 0.8,
+                            'from-yellow-400 to-yellow-600': (correctAnswers/questions.length) >= 0.6 && (correctAnswers/questions.length) < 0.8,
+                            'from-red-400 to-red-600': (correctAnswers/questions.length) < 0.6
+                         }"
+                         :style="`width: ${(correctAnswers / questions.length) * 100}%`"></div>
+                </div>
+                
+                <div class="flex justify-center gap-3">
+                    <button @click="reviewAnswers()" class="px-5 py-2.5 bg-gray-200 text-gray-800 text-sm font-medium rounded-lg hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600 transition-all">
+                        Review Answers
+                    </button>
+                    <button @click="resetQuiz()" class="px-5 py-2.5 bg-primary-600 text-white text-sm font-medium rounded-lg hover:bg-primary-700 transition-all">
+                        Start New Test
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Simplified Footer -->
+    <footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
+                <div class="text-xs text-gray-600 dark:text-gray-400">
+                    © 2025 ByteFlowCmd. All rights reserved.
+                </div>
+                <div class="text-xs text-gray-600 dark:text-gray-400">
+                    Supported by 
+                    <a href="https://medi-finance.pl/" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium underline">
+                        Kancelaria Radcy Prawnego Medi-Finance
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
