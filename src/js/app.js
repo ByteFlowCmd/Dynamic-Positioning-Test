@@ -1,7 +1,7 @@
 function quizApp() {
   return {
     darkMode: false,
-    currentView: "setup", // setup, quiz, results
+    currentView: "setup", // setup, quiz, results, search
     selectedSource: "NI",
     testType: "30",
     questions: [],
@@ -13,8 +13,13 @@ function quizApp() {
     answeredQuestions: 0,
     userAnswers: [],
 
+    // --- Search state ---
+    searchQuery: "",
+    searchResults: [],
+    searchLoading: false,
+    _allExamQuestions: null, // cached EX.json data
+
     init() {
-      // Check for saved dark mode preference
       if (
         localStorage.getItem("darkMode") === "true" ||
         (!localStorage.getItem("darkMode") &&
@@ -36,12 +41,64 @@ function quizApp() {
       }
     },
 
+    // ----------------------------------------------------------------
+    // SEARCH
+    // ----------------------------------------------------------------
+
+    async openSearch() {
+      this.searchQuery = "";
+      this.searchResults = [];
+      this.currentView = "search";
+
+      // Pre-load EX.json in the background so first search is instant
+      if (!this._allExamQuestions) {
+        await this._loadExamQuestions();
+      }
+    },
+
+    async _loadExamQuestions() {
+      this.searchLoading = true;
+      try {
+        const response = await fetch("src/data/EX.json");
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        this._allExamQuestions = await response.json();
+      } catch (err) {
+        console.error("Failed to load EX.json for search:", err);
+        this._allExamQuestions = [];
+      } finally {
+        this.searchLoading = false;
+      }
+    },
+
+    async runSearch() {
+      const query = this.searchQuery.trim().toLowerCase();
+
+      if (query.length < 3) {
+        this.searchResults = [];
+        return;
+      }
+
+      // Load data if not yet cached
+      if (!this._allExamQuestions) {
+        await this._loadExamQuestions();
+      }
+
+      // Filter: match against question text or any answer text
+      this.searchResults = this._allExamQuestions.filter((q) => {
+        if (q.question.toLowerCase().includes(query)) return true;
+        return q.answers.some((a) => a.text.toLowerCase().includes(query));
+      });
+    },
+
+    // ----------------------------------------------------------------
+    // QUIZ
+    // ----------------------------------------------------------------
+
     async loadQuestions() {
       let allQuestions = [];
 
       try {
         if (this.selectedSource === "ALL") {
-          // Load all sources
           const sources = [
             { file: "NI.json", name: "NI" },
             { file: "K.json", name: "K" },
@@ -54,36 +111,31 @@ function quizApp() {
               allQuestions = [...allQuestions, ...questions];
             } catch (error) {
               console.warn(`Failed to load ${source.file}:`, error);
-              // Continue loading other sources even if one fails
             }
           }
         } else {
-          // Load single source
           const fileName = `${this.selectedSource}.json`;
           allQuestions = await this.fetchQuestions(fileName);
         }
 
-        // Shuffle questions
         allQuestions = this.shuffleArray(allQuestions);
 
-        // Select based on test type
         if (this.testType === "30") {
           this.questions = allQuestions.slice(
             0,
-            Math.min(30, allQuestions.length)
+            Math.min(30, allQuestions.length),
           );
         } else {
           this.questions = allQuestions;
         }
 
-        // Initialize first question
         if (this.questions.length > 0) {
           this.currentQuestion = this.questions[0];
         }
       } catch (error) {
         console.error("Error loading questions:", error);
         alert(
-          "Failed to load questions. Please check that the JSON files are in the src/data/ folder."
+          "Failed to load questions. Please check that the JSON files are in the src/data/ folder.",
         );
       }
     },
@@ -96,8 +148,6 @@ function quizApp() {
         }
         const questions = await response.json();
 
-        // The JSON is already an array of questions
-        // Ensure each question has the expected structure
         return questions.map((q) => ({
           id: q.id,
           source: q.source || fileName.replace(".json", ""),
@@ -106,9 +156,6 @@ function quizApp() {
         }));
       } catch (error) {
         console.error(`Error fetching ${fileName}:`, error);
-
-        // Return fallback sample questions if file loading fails
-        // This helps during development when JSON files might not be set up yet
         return this.getFallbackQuestions(fileName);
       }
     },
@@ -117,7 +164,6 @@ function quizApp() {
       const source = fileName.replace(".json", "");
       console.log(`Using fallback questions for ${source}`);
 
-      // Sample questions matching your JSON structure
       return [
         {
           id: `${source}-001`,
@@ -125,8 +171,8 @@ function quizApp() {
             source === "EX"
               ? "Exam"
               : source === "NI"
-              ? "Nautical Institute"
-              : "Kelson",
+                ? "Nautical Institute"
+                : "Kelson",
           question:
             "A Thruster malfunction may best be detected by observing which of the following?",
           answers: [
@@ -145,8 +191,8 @@ function quizApp() {
             source === "EX"
               ? "Exam"
               : source === "NI"
-              ? "Nautical Institute"
-              : "Kelson",
+                ? "Nautical Institute"
+                : "Kelson",
           question:
             "During a Class 2 Operation, output from 1 of 2 bow tunnel thrusters is observed to be frozen at 30% thrust to Port. The DPO should:",
           answers: [
@@ -174,8 +220,8 @@ function quizApp() {
             source === "EX"
               ? "Exam"
               : source === "NI"
-              ? "Nautical Institute"
-              : "Kelson",
+                ? "Nautical Institute"
+                : "Kelson",
           question:
             "The data taken into the mathematical model for the vessel which is above the waterline is affected by?",
           answers: [
@@ -194,8 +240,8 @@ function quizApp() {
             source === "EX"
               ? "Exam"
               : source === "NI"
-              ? "Nautical Institute"
-              : "Kelson",
+                ? "Nautical Institute"
+                : "Kelson",
           question:
             "Which equipment is mandatory under SOLAS regulations? (Select all that apply)",
           answers: [
@@ -212,8 +258,8 @@ function quizApp() {
             source === "EX"
               ? "Exam"
               : source === "NI"
-              ? "Nautical Institute"
-              : "Kelson",
+                ? "Nautical Institute"
+                : "Kelson",
           question: "What is the primary purpose of Dynamic Positioning (DP)?",
           answers: [
             {
@@ -240,7 +286,6 @@ function quizApp() {
     async startQuiz() {
       if (!this.selectedSource || !this.testType) return;
 
-      // Reset quiz state
       this.currentQuestionIndex = 0;
       this.selectedAnswers = [];
       this.questionAnswered = false;
@@ -248,33 +293,28 @@ function quizApp() {
       this.answeredQuestions = 0;
       this.userAnswers = [];
 
-      // Load questions
       await this.loadQuestions();
 
       if (this.questions.length === 0) {
         alert(
-          "No questions available. Please ensure JSON files are properly loaded."
+          "No questions available. Please ensure JSON files are properly loaded.",
         );
         return;
       }
 
-      // Switch to quiz view
       this.currentView = "quiz";
     },
 
     toggleAnswer(index) {
       if (this.questionAnswered) return;
 
-      // Check if this question has multiple correct answers
       const correctAnswersCount = this.currentQuestion.answers.filter(
-        (a) => a.correct
+        (a) => a.correct,
       ).length;
 
       if (correctAnswersCount === 1) {
-        // Single answer question - replace selection
         this.selectedAnswers = [index];
       } else {
-        // Multiple answer question - toggle selection
         const answerIndex = this.selectedAnswers.indexOf(index);
         if (answerIndex > -1) {
           this.selectedAnswers.splice(answerIndex, 1);
@@ -290,7 +330,6 @@ function quizApp() {
       this.questionAnswered = true;
       this.answeredQuestions++;
 
-      // Check if all selected answers are correct
       let isCorrect = true;
       let correctCount = 0;
 
@@ -306,7 +345,6 @@ function quizApp() {
         }
       });
 
-      // Also check if user selected all correct answers
       if (this.selectedAnswers.length !== correctCount) {
         isCorrect = false;
       }
@@ -315,7 +353,6 @@ function quizApp() {
         this.correctAnswers++;
       }
 
-      // Store user answer
       this.userAnswers.push({
         questionIndex: this.currentQuestionIndex,
         selectedAnswers: [...this.selectedAnswers],
@@ -330,9 +367,8 @@ function quizApp() {
         this.selectedAnswers = [];
         this.questionAnswered = false;
 
-        // Check if this question was already answered
         const previousAnswer = this.userAnswers.find(
-          (a) => a.questionIndex === this.currentQuestionIndex
+          (a) => a.questionIndex === this.currentQuestionIndex,
         );
         if (previousAnswer) {
           this.selectedAnswers = previousAnswer.selectedAnswers;
@@ -346,9 +382,8 @@ function quizApp() {
         this.currentQuestionIndex--;
         this.currentQuestion = this.questions[this.currentQuestionIndex];
 
-        // Load previous answer if exists
         const previousAnswer = this.userAnswers.find(
-          (a) => a.questionIndex === this.currentQuestionIndex
+          (a) => a.questionIndex === this.currentQuestionIndex,
         );
         if (previousAnswer) {
           this.selectedAnswers = previousAnswer.selectedAnswers;
@@ -368,7 +403,7 @@ function quizApp() {
       this.currentQuestionIndex = 0;
       this.currentQuestion = this.questions[0];
       const previousAnswer = this.userAnswers.find(
-        (a) => a.questionIndex === 0
+        (a) => a.questionIndex === 0,
       );
       if (previousAnswer) {
         this.selectedAnswers = previousAnswer.selectedAnswers;
@@ -391,7 +426,6 @@ function quizApp() {
       this.userAnswers = [];
     },
 
-    // Helper method to check if a question has multiple correct answers
     hasMultipleCorrectAnswers() {
       if (!this.currentQuestion) return false;
       return this.currentQuestion.answers.filter((a) => a.correct).length > 1;
