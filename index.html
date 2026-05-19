@@ -131,7 +131,7 @@
                     Start Test →
                 </button>
                 <button @click="openSearch()"
-                        class="px-8 py-3 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 focus:outline-none focus:ring-4 focus:ring-teal-300 dark:focus:ring-teal-800 transition-all duration-200 transform hover:scale-105 text-base flex items-center gap-2">
+                        class="px-8 py-3 bg-teal-600 text-white font-semibold rounded-lg hover:bg-teal-700 focus:outline-none focus:ring-4 focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-400 dark:focus:ring-teal-700 transition-all duration-200 transform hover:scale-105 text-base flex items-center gap-2">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                     </svg>
@@ -391,8 +391,8 @@
                         <div class="space-y-2">
                             <template x-for="(answer, aIdx) in result.answers" :key="aIdx">
                                 <div :class="answer.correct
-                                        ? 'bg-green-50 dark:bg-green-900/20 border-green-400 dark:border-green-600'
-                                        : 'bg-gray-50 dark:bg-gray-700/40 border-gray-200 dark:border-gray-600 opacity-60'"
+                                        ? 'bg-green-50 dark:bg-green-900/30 border-green-400 dark:border-green-500'
+                                        : 'bg-gray-50 dark:bg-gray-800/60 border-gray-200 dark:border-gray-600 opacity-70'"
                                      class="flex items-start gap-3 p-3 rounded-lg border-2 transition-colors">
                                     <!-- Green check / grey dot -->
                                     <div :class="answer.correct
@@ -404,8 +404,8 @@
                                         </svg>
                                     </div>
                                     <span :class="answer.correct
-                                            ? 'text-green-800 dark:text-green-200 font-semibold'
-                                            : 'text-gray-600 dark:text-gray-400'"
+                                            ? 'text-green-800 dark:text-green-300 font-semibold'
+                                            : 'text-gray-500 dark:text-gray-400'"
                                           class="text-sm leading-snug"
                                           x-text="answer.text">
                                     </span>
@@ -418,11 +418,11 @@
             </div>
 
             <!-- Empty state (before typing) -->
-            <div x-show="searchQuery.length === 0" class="text-center py-16 text-gray-400 dark:text-gray-600">
-                <svg class="w-14 h-14 mx-auto mb-4 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div x-show="searchQuery.length === 0" class="text-center py-16 text-gray-500 dark:text-gray-400">
+                <svg class="w-14 h-14 mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                 </svg>
-                <p class="text-sm">Start typing to search through exam questions</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Start typing to search through exam questions</p>
             </div>
 
         </div>
