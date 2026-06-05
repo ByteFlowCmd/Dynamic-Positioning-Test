@@ -143,7 +143,7 @@
     "question": "One of 3 bow tunnel thrusters on a Class 2 DP vessel fails to zero thrust while the vessel is conducting diving operations. The DPO should advise dive control and:",
     "answers": [
       {
-        "text": "A Imediately change to manual control.",
+        "text": "A Immediately change to manual control.",
         "correct": false
       },
       {
@@ -301,7 +301,7 @@
   {
     "id": "E-014",
     "source": "Exam",
-    "question": "The enviromental forces acting on a DP vessel is said to be all the remaining forces acting on that vessel once the forces from one particular sensor has been taken into account, what sensor is this referring to?",
+    "question": "The environmental forces acting on a DP vessel is said to be all the remaining forces acting on that vessel once the forces from one particular sensor has been taken into account, what sensor is this referring to?",
     "answers": [
       {
         "text": "A VRU",
@@ -324,7 +324,7 @@
   {
     "id": "E-015",
     "source": "Exam",
-    "question": "During ROV operations, a bow thruster feedback signal indicates that #1 bow tunnel thrusters has failed to full force. The vessel is not holding heading. The DPO should:",
+    "question": "During ROV operations, a bow thruster feedback signal indicates that #1 bow tunnel thrusters have failed to full force. The vessel is not holding heading. The DPO should:",
     "answers": [
       {
         "text": "A Be prepared to activate the emergency stop for the affected thruster if required.",
@@ -339,7 +339,7 @@
         "correct": false
       },
       {
-        "text": "D Deselect the thruster with the faulty feedback from the DP Operator Station and continoue normal operations.",
+        "text": "D Deselect the thruster with the faulty feedback from the DP Operator Station and continue normal operations.",
         "correct": false
       }
     ]
@@ -377,7 +377,7 @@
         "correct": false
       },
       {
-        "text": "The ability of a DP vessel to maintain position and heading subsequent to a single failure in any part of the DP system.",
+        "text": "B The ability of a DP vessel to maintain position and heading subsequent to a single failure in any part of the DP system.",
         "correct": true
       },
       {
@@ -1347,6 +1347,1480 @@
       { "text": "B When moves are made at a speed greater than 2 knots.", "correct": false },
       { "text": "C When the vessel is required to turn through 180.", "correct": false },
       { "text": "D When three sensors are fitted as only two can be in use at any one time.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-103",
+    "source": "Exam",
+    "question": "A Class 2 DP vessel is equipped with 2 electrically driven bow tunnel thrusters. During a DP operation, one of these thrusters fails to full force. The DPOs first action should be to:",
+    "answers": [
+      { "text": "A Inform the engine room and ask them to fix the problem.", "correct": false },
+      { "text": "B Deselect the failed thruster from the DP Operator Station.", "correct": false },
+      { "text": "C Activate Emergency Stop for the failed thruster.", "correct": true },
+      { "text": "D Advise the Master of the problem.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-104",
+    "source": "Exam",
+    "question": "The total amount of thruster force needed to maintain station in the auto-position mode may vary:",
+    "answers": [
+      { "text": "A When extra thrusters are brought online.", "correct": false },
+      { "text": "B When gain settings on the DP system are adjusted.", "correct": true },
+      { "text": "C When generators are taken offline.", "correct": false },
+      { "text": "D If a thruster fails to zero thrust.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-105",
+    "source": "Exam",
+    "question": "The total amount of thruster force needed to maintain station in the auto-position mode may vary:",
+    "answers": [
+      { "text": "A When gain settings on the DP system are adjusted.", "correct": true },
+      { "text": "B If the DPO selects extra thrusters.", "correct": false },
+      { "text": "C Consequences analysis is turned on.", "correct": false },
+      { "text": "D Depending on the vessel's DP Class.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-106",
+    "source": "Exam",
+    "question": "A Thruster 'Bias' mode can be selected:",
+    "answers": [
+      { "text": "A When there is a requirement for greater redundancy.", "correct": false },
+      { "text": "B To limit thruster azimuthing in light environmental conditions.", "correct": true },
+      { "text": "C When there is a need for quick calculation of current forces.", "correct": false },
+      { "text": "D To make it easier for the DPO to observe thruster malfunctions.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-107",
+    "source": "Exam",
+    "question": "A vessel is equipped with 3 azimuth thrusters at the bow and 3 azimuth thrusters at the stern. A 'Fixed Azimuth' mode is available. When might this mode be used?",
+    "answers": [
+      { "text": "A To make it easier for the DPO to observe thruster malfunctions.", "correct": false },
+      { "text": "B When the thrusters are continually hunting for direction in light weather conditions.", "correct": true },
+      { "text": "C When 1 of the thrusters is out of service for maintenance.", "correct": false },
+      { "text": "D When a helicopter is about to land.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-108",
+    "source": "Exam",
+    "question": "During ROV operations, a faulty feedback signal indicates that 1 of 2 bow tunnel thrusters has failed to full force but system checks indicate that the thruster is functioning properly. There is a loss of position and heading. The DPO should first:",
+    "answers": [
+      { "text": "A Activate the emergency stop for the failed thruster.", "correct": false },
+      { "text": "B Deselect the failed thruster from the DP Operator Station.", "correct": true },
+      { "text": "C Advise the Master of the problem.", "correct": false },
+      { "text": "D Inform the engine room and ask them to fix the problem.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-109",
+    "source": "Exam",
+    "question": "One of three stern azimuth thrusters is seen to be providing 50% more thrust feedback than is demanded by the DP. The DP system is compensating for the error by reducing thrust output on the other 2 azimuths. Heading and position are stable. The DPO should:",
+    "answers": [
+      { "text": "A Have the faulty thruster stopped and advise the engineers to check and effect repairs.", "correct": true },
+      { "text": "B Do nothing, as positioning is stable.", "correct": false },
+      { "text": "C Continue to use the faulty thruster and have the engineers attempt repairs.", "correct": false },
+      { "text": "D Deselect the faulty thruster from the DP Operator Station and advise engineers to effect repairs.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-110",
+    "source": "Exam",
+    "question": "A Class 2 DP vessel is equipped with 2 bow tunnels and 2 azimuths on the stern. One azimuth thruster is out of service for maintenance. The effect on DP operations would be that:",
+    "answers": [
+      { "text": "A Operations requiring the vessel to be Class 1 would not be permitted, even if the one remaining azimuth has sufficient thrust to counteract environmental conditions.", "correct": false },
+      { "text": "B Operations requiring the vessel to be Class 2 would be permitted because the vessel has a Class 2 Certificate.", "correct": false },
+      { "text": "C No DP operations should be conducted with the thruster out of service.", "correct": false },
+      { "text": "D Operations requiring the vessel to be Class 2 would not be permitted.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-111",
+    "source": "Exam",
+    "question": "A DP vessel is equipped with 2 tunnel thrusters forward, 2 tunnel thrusters aft, 2 main engines/propellers/rudders. During DP operations the Port Main propeller fails to full ahead pitch which causes a drive off in the direction of a nearby platform. The DPOs first action should be to:",
+    "answers": [
+      { "text": "A Activate the Emergency Stop for the failed thruster and inform the engineers.", "correct": true },
+      { "text": "B Inform the engine room and ask them to investigate the problem.", "correct": false },
+      { "text": "C Activate emergency stop for the failed thruster only if full thruster redundancy is maintained.", "correct": false },
+      { "text": "D Deselect failed thruster from DP Operator Station and inform the engineers.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-112",
+    "source": "Exam",
+    "question": "A vessel is fitted with three tunnel thrusters at the bow as part of her DP Capability. The effectiveness of these units may be adversely affected by:",
+    "answers": [
+      { "text": "A Operating at a deep draught.", "correct": false },
+      { "text": "B Sand and mud in the water.", "correct": false },
+      { "text": "C The proximity of nearby platform structure.", "correct": false },
+      { "text": "D Rough seas causing heavy pitch.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-113",
+    "source": "Exam",
+    "question": "What is a data timeout?",
+    "answers": [
+      { "text": "A Data fails to arrive within the expected time frame. It is almost always caused by a collision on an Ethernet network, by an overloaded computer on proprietary networks.", "correct": true },
+      { "text": "B Data is received OK, but not accessed and processed within the expected time frame.", "correct": false },
+      { "text": "C Data packets collide and have to be retransmitted because of errors.", "correct": false },
+      { "text": "D Data is corrupted during transmission and must be re-requested from the source.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-114",
+    "source": "Exam",
+    "question": "Which movement does the Gyro Compass monitor?",
+    "answers": [
+      { "text": "A Yaw (Heading control).", "correct": true },
+      { "text": "B Sway.", "correct": false },
+      { "text": "C Pitch.", "correct": false },
+      { "text": "D Surge.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-115",
+    "source": "Exam",
+    "question": "The data taken into the mathematical model is dependent upon the form of the vessel above the waterline, i.e. the 'sail area' and its disposition. Is this affected by?",
+    "answers": [
+      { "text": "A The speed of the vessel move.", "correct": false },
+      { "text": "B Heave and Pitch.", "correct": false },
+      { "text": "C The direction of the vessel move.", "correct": false },
+      { "text": "D The wind direction and strength in relation to the ship's head.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-116",
+    "source": "Exam",
+    "question": "What movement is defined as sideway motion?",
+    "answers": [
+      { "text": "A Roll.", "correct": false },
+      { "text": "B Surge.", "correct": false },
+      { "text": "C Sway.", "correct": true },
+      { "text": "D Yaw.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-117",
+    "source": "Exam",
+    "question": "Gyro 1 heading is 020 degrees, Gyro 2 heading is 031 degrees and Gyro 3 heading is 020 degrees. By voting the DP system rejects Gyro 2. DP equipment class 2 operations are in progress, what is your most appropriate course of action?",
+    "answers": [
+      { "text": "A Check the magnetic compass to determine which gyro is providing the correct heading and select it.", "correct": false },
+      { "text": "B Check the vessel's ASOG and take appropriate action.", "correct": true },
+      { "text": "C Deselect Gyro 1 and Select Gyro 2.", "correct": false },
+      { "text": "D Reselect Gyro 2.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-118",
+    "source": "Exam",
+    "question": "Gyro 1 heading is 020 degrees, Gyro 2 heading is 031 degrees and Gyro 3 heading is 020 degrees. By voting the DP system rejects Gyro 2. A while later input to the DP system from Gyro 3 is lost. DP equipment class 2 operations are in progress, what is your most appropriate course of action?",
+    "answers": [
+      { "text": "A Check vessel's ASOG and take appropriate action.", "correct": true },
+      { "text": "B Take manual control of the vessel.", "correct": false },
+      { "text": "C Continue DP operations using input from the gyro determined to be providing the correct heading.", "correct": false },
+      { "text": "D Deselect heading control as it is unreliable.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-119",
+    "source": "Exam",
+    "question": "On a PSV alongside an installation a sudden high unexpected increase of DP current (Residual Force) is observed. What is the most probable reason?",
+    "answers": [
+      { "text": "A One of the position reference systems is unreliable.", "correct": false },
+      { "text": "B There is a wind sensor error.", "correct": true },
+      { "text": "C There is a computer error.", "correct": false },
+      { "text": "D There is a storm coming up.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-120",
+    "source": "Exam",
+    "question": "On a PSV alongside an installation a sudden high unexpected increase of DP current (Residual Force) is observed. What is the most probable reason?",
+    "answers": [
+      { "text": "A There is a storm coming up.", "correct": false },
+      { "text": "B There is a computer error.", "correct": false },
+      { "text": "C One of the position reference systems is unreliable.", "correct": false },
+      { "text": "D There is a thruster feedback error.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-121",
+    "source": "Exam",
+    "question": "The wind sensors are being blocked by the topside of a platform. What should you NOT do?",
+    "answers": [
+      { "text": "A Move to the windward side.", "correct": false },
+      { "text": "B Suspend operation.", "correct": false },
+      { "text": "C Remain in position and leave wind sensors selected.", "correct": true },
+      { "text": "D Inform ETO.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-122",
+    "source": "Exam",
+    "question": "What is the most frequent method of checking the MRU/VRS's are functioning correctly?",
+    "answers": [
+      { "text": "A Check locally.", "correct": false },
+      { "text": "B Ensure electrical continuity to units is intact.", "correct": false },
+      { "text": "C Compare the feedback readings on the DP control system.", "correct": true },
+      { "text": "D Consult the most recent service report.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-123",
+    "source": "Exam",
+    "question": "What is the most frequent method of checking the MRU/VRS's are functioning correctly?",
+    "answers": [
+      { "text": "A Ask the engine room for a print out of the readings.", "correct": false },
+      { "text": "B Disconnect and test during the FMEA.", "correct": false },
+      { "text": "C Compare all PRS to see they are functioning correctly.", "correct": false },
+      { "text": "D Compare the feedback readings on the DP control system.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-124",
+    "source": "Exam",
+    "question": "What is the main reason why a DP equipment class 2 vessel requires at least 3 gyro's?",
+    "answers": [
+      { "text": "A If one is giving a wrong heading the DPO will know which one it is.", "correct": true },
+      { "text": "B It is required for triple redundancy.", "correct": false },
+      { "text": "C One is for navigation and other two are for DP.", "correct": false },
+      { "text": "D It provides the most accurate heading.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-125",
+    "source": "Exam",
+    "question": "What is the main reason why a DP equipment class 2 vessel requires at least 3 gyro's?",
+    "answers": [
+      { "text": "A The third one is to feed the survey spread.", "correct": false },
+      { "text": "B To allow the DP system to reject the faulty Gyro.", "correct": true },
+      { "text": "C One Gyro is used for each of the three required position reference systems.", "correct": false },
+      { "text": "D Buy 2 get the third one free.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-126",
+    "source": "Exam",
+    "question": "You are the DPO on a DP Class 1 Vessel. The vessel's two Gyros have a steady difference of 3 degrees compared to the third one. The best option would be:",
+    "answers": [
+      { "text": "A Discontinue the Operation and return to port.", "correct": false },
+      { "text": "B Reset the speed error.", "correct": false },
+      { "text": "C Apply the correction to the faulty Gyro and continue.", "correct": true },
+      { "text": "D Switch off one Gyro.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-127",
+    "source": "Exam",
+    "question": "While using a Laser PRS, multiple targets may be placed around 360 degrees while using the following PRS:",
+    "answers": [
+      { "text": "A Radius.", "correct": false },
+      { "text": "B Artemis.", "correct": false },
+      { "text": "C CyScan.", "correct": true },
+      { "text": "D Radascan.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-128",
+    "source": "Exam",
+    "question": "Select from the list below, the PRS system with longest usable range:",
+    "answers": [
+      { "text": "A Fanbeam.", "correct": false },
+      { "text": "B Cyscan.", "correct": false },
+      { "text": "C HPR.", "correct": false },
+      { "text": "D Artemis.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-129",
+    "source": "Exam",
+    "question": "When working in the vicinity of a large production platform or installation, the Reference system that is likely to be unavailable due to shadowing would be:",
+    "answers": [
+      { "text": "A DGNSS.", "correct": true },
+      { "text": "B Cyscan.", "correct": false },
+      { "text": "C Radius.", "correct": false },
+      { "text": "D Taut wire.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-130",
+    "source": "Exam",
+    "question": "The DARPS system is commonly used in the following type of Operations:",
+    "answers": [
+      { "text": "A Anchor-handling Operations.", "correct": false },
+      { "text": "B Shuttle Tanker Operations.", "correct": true },
+      { "text": "C Follow Target Mode.", "correct": false },
+      { "text": "D Air Dive Operations.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-131",
+    "source": "Exam",
+    "question": "Taut wire System is useful in the following situation:",
+    "answers": [
+      { "text": "A 70 to 300 metre water depths.", "correct": true },
+      { "text": "B Water depths over 1000 metres.", "correct": false },
+      { "text": "C Shallow waters.", "correct": false },
+      { "text": "D Strong currents.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-132",
+    "source": "Exam",
+    "question": "A Pinger may be described as:",
+    "answers": [
+      { "text": "A An underwater beacon which transmits automatically at pre-set intervals.", "correct": true },
+      { "text": "B An underwater beacon which responds when interrogated.", "correct": false },
+      { "text": "C A target used by Radascan.", "correct": false },
+      { "text": "D An IALA beacon which transmits free differential signals.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-133",
+    "source": "Exam",
+    "question": "A system that can improve station-keeping accuracy in deep waters when coupled with (aided by) Hydro-acoustic systems is:",
+    "answers": [
+      { "text": "A DARPS.", "correct": false },
+      { "text": "B Dual GNSS.", "correct": false },
+      { "text": "C Deepwater Taut wire.", "correct": false },
+      { "text": "D Inertial navigation system.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-134",
+    "source": "Exam",
+    "question": "In Drilling operations, the following system may be useful in keeping the marine riser entry angle within limits at the lower marine riser package (LMRP):",
+    "answers": [
+      { "text": "A Riser Angle System.", "correct": true },
+      { "text": "B Taut wire.", "correct": false },
+      { "text": "C HPR.", "correct": false },
+      { "text": "D GNSS.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-135",
+    "source": "Exam",
+    "question": "Among HPR systems, the greatest accuracy can be expected in the following mode:",
+    "answers": [
+      { "text": "A Long baseline method.", "correct": true },
+      { "text": "B Super-short baseline.", "correct": false },
+      { "text": "C Pinger Mode.", "correct": false },
+      { "text": "D Short baseline.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-136",
+    "source": "Exam",
+    "question": "During Shallow water operations, the most reliable system to use would be:",
+    "answers": [
+      { "text": "A RADius.", "correct": false },
+      { "text": "B CyScan.", "correct": false },
+      { "text": "C GNSS.", "correct": true },
+      { "text": "D HPR.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-137",
+    "source": "Exam",
+    "question": "Differential corrections for GNSS systems may be transmitted as:",
+    "answers": [
+      { "text": "A MF.", "correct": false },
+      { "text": "B HF.", "correct": false },
+      { "text": "C Any of these methods.", "correct": true },
+      { "text": "D Satellite signals.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-138",
+    "source": "Exam",
+    "question": "The accuracy and reliability of which position reference system can be improved by utilizing a HAIN system?",
+    "answers": [
+      { "text": "A Acoustic PRS (HPR).", "correct": true },
+      { "text": "B DARPS.", "correct": false },
+      { "text": "C ARTEMIS.", "correct": false },
+      { "text": "D DGPS.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-139",
+    "source": "Exam",
+    "question": "Of the following, which cannot adversely affect DGNSS positioning systems?",
+    "answers": [
+      { "text": "A Adverse weather conditions.", "correct": true },
+      { "text": "B Platform microwave communications transmissions.", "correct": false },
+      { "text": "C Sunspot activity.", "correct": false },
+      { "text": "D High HDOP values.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-140",
+    "source": "Exam",
+    "question": "Vessel in DP close to platform, in heavy beam swell. 2 DGNSS and Fanbeam in use, with target on platform 12 metres from vessel's unit. Fanbeam signal strength erratic, alternating strong to weak, resulting in frequent drop-outs from DP desk. What could be the most likely cause of this?",
+    "answers": [
+      { "text": "A Tilt caused by vessel roll in beam swell causing periodic loss and reacquisition of target.", "correct": true },
+      { "text": "B Electrical interference from platform equipment.", "correct": false },
+      { "text": "C Target reflector is damaged or incorrectly oriented.", "correct": false },
+      { "text": "D Fanbeam unit requires recalibration.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-141",
+    "source": "Exam",
+    "question": "Why is it bad practice to attach a HPR beacon to a taut wire?",
+    "answers": [
+      { "text": "A The beacon may interfere with the taut wire acoustic signals.", "correct": false },
+      { "text": "B The taut wire may interfere with the beacon's acoustic signals.", "correct": false },
+      { "text": "C If the Taut Wire drags both systems will move together, causing the more stable system to be rejected in Voting.", "correct": true },
+      { "text": "D This could introduce a large HDOP error in the HPR system.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-142",
+    "source": "Exam",
+    "question": "Positioning using a Fanbeam reference system is not affected by:",
+    "answers": [
+      { "text": "A Direct light, such as rising/setting sun shining directly into the Fanbeam unit.", "correct": false },
+      { "text": "B Dense fog.", "correct": false },
+      { "text": "C Improperly secured tube reflectors moving in strong winds.", "correct": false },
+      { "text": "D Interference from the vessel's radio transmissions.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-143",
+    "source": "Exam",
+    "question": "An MSV is in the 'Follow Target' Mode following a Semi-Submersible in Position and Heading. Which is the best combination of PRS for the MSV?",
+    "answers": [
+      { "text": "A DGNSS, Artemis, Radius.", "correct": false },
+      { "text": "B Radius, Fanbeam (with at least one Prism on the Semi Sub), Taut Wire.", "correct": false },
+      { "text": "C 2 DGNSS, ROV (with Transponder).", "correct": false },
+      { "text": "D 2 DGNSS, 1 Fanbeam (with at least two Prism reflectors on the Semi Sub).", "correct": true }
+    ]
+  },
+  {
+    "id": "E-144",
+    "source": "Exam",
+    "question": "A Gangway is in use between a fixed platform and a DP Accommodation Vessel. Can the Gangway be programmed as a PRS?",
+    "answers": [
+      { "text": "A No, since there is no facility to disconnect in an emergency.", "correct": false },
+      { "text": "B No.", "correct": false },
+      { "text": "C Yes, only if a GPS antenna is available at both ends of the Gangway.", "correct": false },
+      { "text": "D Yes.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-145",
+    "source": "Exam",
+    "question": "Can two taut wire systems on board be considered as 2 PRS?",
+    "answers": [
+      { "text": "A Only if they are completely independent of each other.", "correct": true },
+      { "text": "B Only if they are on different sides of the vessel.", "correct": false },
+      { "text": "C Only if they are operated by different personnel.", "correct": false },
+      { "text": "D Only if their power supplies are different.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-146",
+    "source": "Exam",
+    "question": "When operating close to another DP vessel, potential mutual interference is likely from:",
+    "answers": [
+      { "text": "A Sun spot activity.", "correct": false },
+      { "text": "B Survey data reception.", "correct": false },
+      { "text": "C Acoustic PRS interference.", "correct": true },
+      { "text": "D A reduction in GNSS signal strength.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-147",
+    "source": "Exam",
+    "question": "Reception of Global satellite data is affected by which one of the following environmental factors?",
+    "answers": [
+      { "text": "A Fog.", "correct": false },
+      { "text": "B Cloud.", "correct": false },
+      { "text": "C Sunspot activity.", "correct": true },
+      { "text": "D Rain.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-148",
+    "source": "Exam",
+    "question": "Reception of Global satellite data is affected by which one of the following environmental factors?",
+    "answers": [
+      { "text": "A Soliton.", "correct": false },
+      { "text": "B Sunspot activity.", "correct": true },
+      { "text": "C Strong wind.", "correct": false },
+      { "text": "D Lightning.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-149",
+    "source": "Exam",
+    "question": "What is the main bus tie breaker?",
+    "answers": [
+      { "text": "A The circuit breaker between switchboard and emergency generator.", "correct": false },
+      { "text": "B The circuit breaker between generator and switchboard.", "correct": false },
+      { "text": "C The main circuit breaker between the main sections of the switchboard.", "correct": true },
+      { "text": "D The circuit breaker between switchboard and the DP UPS.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-150",
+    "source": "Exam",
+    "question": "Is the capability plot affected by the number of generators that are online?",
+    "answers": [
+      { "text": "A NO - Capability plots are only to show what will happen after WCF.", "correct": false },
+      { "text": "B NO - Capability plots are made by ship's officer.", "correct": false },
+      { "text": "C YES - There must be power available to run the thrusters at maximum thrust.", "correct": true },
+      { "text": "D NO - Capability plot is based on the thruster output and not linked to generator.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-151",
+    "source": "Exam",
+    "question": "What is 'spinning reserve'?",
+    "answers": [
+      { "text": "A Thrust output from CPP that is not being used.", "correct": false },
+      { "text": "B The amount of power available from a generator that is online and not being used.", "correct": true },
+      { "text": "C The power available from the emergency generator.", "correct": false },
+      { "text": "D The power available if you started the offline generator.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-152",
+    "source": "Exam",
+    "question": "The main function of the Power Management System is to:",
+    "answers": [
+      { "text": "A Allow the vessel to drift off slowly.", "correct": false },
+      { "text": "B Trip a thruster if it's using too much power.", "correct": false },
+      { "text": "C Prevent Blackouts.", "correct": true },
+      { "text": "D Ensure that all non essential equipment can keep running.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-153",
+    "source": "Exam",
+    "question": "What is an advantage of having the bus-tie breaker in the 'closed' position on a DP Class 2 vessel?",
+    "answers": [
+      { "text": "A To allow sharing of power loads between all running generators and/or alternators.", "correct": true },
+      { "text": "B To reduce the workload on the DPOs.", "correct": false },
+      { "text": "C To provide power for the galley; ensuring that hot food is always available.", "correct": false },
+      { "text": "D To ensure that a fault on one side of the switchboard does not transfer to the other side.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-154",
+    "source": "Exam",
+    "question": "A function of the Power Management System is to continually monitor 'Available Power'. 'Available Power' is:",
+    "answers": [
+      { "text": "A The number of generators running but not connected to the switchboard.", "correct": false },
+      { "text": "B The number of thrusters connected to the switchboard.", "correct": false },
+      { "text": "C The reserve (available) power at any given time.", "correct": true },
+      { "text": "D The availability of the Uninterruptible Power Supply.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-155",
+    "source": "Exam",
+    "question": "DP vessels are particularly vulnerable to power shortages and blackout conditions. To guard against these events resulting in a vessel drift-off, vessels with Class 2 Equipment must be fitted with:",
+    "answers": [
+      { "text": "A Emergency generator on auto start ready to power thrusters.", "correct": false },
+      { "text": "B Close switchboard tie breakers with watertight subdivision.", "correct": false },
+      { "text": "C Power Management Systems with the Consequence Analysis alarm on.", "correct": true },
+      { "text": "D Uninterruptible Power Supplies.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-156",
+    "source": "Exam",
+    "question": "Excursions about a set point are expected when operating on DP. For a vessel working to DP equipment class 2, which of the following would you expect NOT to increase the excursions?",
+    "answers": [
+      { "text": "A Loss of half the available thrusters.", "correct": false },
+      { "text": "B Soliton.", "correct": false },
+      { "text": "C Wind sensor error.", "correct": false },
+      { "text": "D Tidal change.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-157",
+    "source": "Exam",
+    "question": "On a DP equipment class 2 vessel working within its Worst Case Failure Design Intent (WCFDI) the environmental conditions increase so that more than 60% of the available thruster force is being used to maintain position. What is likely to be the most appropriate alert level?",
+    "answers": [
+      { "text": "A Yellow.", "correct": true },
+      { "text": "B Blue.", "correct": false },
+      { "text": "C Red.", "correct": false },
+      { "text": "D Green.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-158",
+    "source": "Exam",
+    "question": "Your DP Class 2 vessel is in Track Follow mode laying a fiber optic cable with residual forces 45 degrees on the bow. There are no platforms or other obstructions in the area. The vessel has 6 thrusters, 3 supplied from Bus A and 3 supplied from Bus B. A Consequence Analysis alarm indicates that a failure of either bus will leave the vessel with insufficient thrust to maintain heading/position. Which of the following is the most appropriate action to take?",
+    "answers": [
+      { "text": "A Stop the vessel, wait for the alarm to go away, resume laying cable.", "correct": false },
+      { "text": "B Continue operations without taking any further action.", "correct": false },
+      { "text": "C Immediately cut and abandon the cable for future recovery.", "correct": false },
+      { "text": "D Change to a heading that will reduce thrust requirements and restore redundancy.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-159",
+    "source": "Exam",
+    "question": "With the wind and DP current factor of equal force and separated by 90 degrees, what would be the best heading for a monohull DP vessel to counter balance the forces?",
+    "answers": [
+      { "text": "A Best heading of the vessel is to keep vessel heading between the two equal forces (bisectrix).", "correct": true },
+      { "text": "B Head directly into the wind.", "correct": false },
+      { "text": "C Head directly into the current.", "correct": false },
+      { "text": "D Head perpendicular to both forces.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-160",
+    "source": "Exam",
+    "question": "What is a full Diesel Electric Vessel?",
+    "answers": [
+      { "text": "A Vessel with propellers that are direct drive.", "correct": false },
+      { "text": "B Vessel with only one bow thruster.", "correct": false },
+      { "text": "C All drives and thrusters are driven by hydraulics.", "correct": false },
+      { "text": "D All drives and thrusters are electrically driven.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-161",
+    "source": "Exam",
+    "question": "A vessel has completed her approach to a worksite which is close alongside a fixed platform. She is in her final working position. Before giving the 'green light' allowing commencement of ROV operations, it is essential that:",
+    "answers": [
+      { "text": "A All checklists are completed, 30 minutes on DP, and a permit to work issued.", "correct": true },
+      { "text": "B The master has given his permission to work.", "correct": false },
+      { "text": "C Thruster Bias lockout zones established and programmed.", "correct": false },
+      { "text": "D The dive shack has launched the ROV.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-162",
+    "source": "Exam",
+    "question": "During shallow water operations with no other platform within 500 metres, in depths of less than 25 metres, choose from one of the following list of PRS for a DP Class 2 Vessel:",
+    "answers": [
+      { "text": "A DGNSS.", "correct": true },
+      { "text": "B LTW.", "correct": false },
+      { "text": "C RADIUS.", "correct": false },
+      { "text": "D HPR.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-163",
+    "source": "Exam",
+    "question": "During critical activities in waters greater than 1000 metres, the following Reference Systems should be considered:",
+    "answers": [
+      { "text": "A HPR (HiPAP).", "correct": true },
+      { "text": "B Taut Wire.", "correct": false },
+      { "text": "C Fanbeam.", "correct": false },
+      { "text": "D RADIUS.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-164",
+    "source": "Exam",
+    "question": "The following system may be affected by 3 cm radar operating in the vicinity:",
+    "answers": [
+      { "text": "A Artemis and FMCW Radar systems (e.g. Radascan).", "correct": true },
+      { "text": "B DGNSS.", "correct": false },
+      { "text": "C HPR.", "correct": false },
+      { "text": "D Taut Wire.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-165",
+    "source": "Exam",
+    "question": "To find out whether an IALA station is available to provide MF differential corrections, a DPO would refer to:",
+    "answers": [
+      { "text": "A Details of the IALA DGPS beacons and radio frequencies are provided in the Admiralty List of Radio Signals, Volume 8 (NP 228).", "correct": true },
+      { "text": "B The vessel's FMEA document.", "correct": false },
+      { "text": "C The charterer's operational manual.", "correct": false },
+      { "text": "D The DP system manufacturer's handbook.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-166",
+    "source": "Exam",
+    "question": "TDMA (Time Division Multiple Access) Radio technique is used with the following type of Position Reference System:",
+    "answers": [
+      { "text": "A FMCW Radar (Radius, Radascan).", "correct": true },
+      { "text": "B DARPS.", "correct": false },
+      { "text": "C HPR.", "correct": false },
+      { "text": "D DGNSS.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-167",
+    "source": "Exam",
+    "question": "Hydro-acoustic Ranges can be affected by:",
+    "answers": [
+      { "text": "A Thruster noise, aeration in water, temperature layering in the water, and salinity.", "correct": true },
+      { "text": "B Heavy snowfall and low air temperatures.", "correct": false },
+      { "text": "C Thunder and lightning.", "correct": false },
+      { "text": "D Night time operations and reduced visibility.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-168",
+    "source": "Exam",
+    "question": "Select from the list below, the two PRS systems with longest usable range:",
+    "answers": [
+      { "text": "A GNSS or Artemis.", "correct": true },
+      { "text": "B Fanbeam or CyScan.", "correct": false },
+      { "text": "C Taut Wire or HPR.", "correct": false },
+      { "text": "D RADIUS or Radascan.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-169",
+    "source": "Exam",
+    "question": "A DP Class 1 vessel:",
+    "answers": [
+      { "text": "A Is not able to maintain position automatically.", "correct": false },
+      { "text": "B Has at least two computers.", "correct": false },
+      { "text": "C Has the highest standard of system redundancy available.", "correct": false },
+      { "text": "D May lose position and/or heading if a single component in the DP system fails.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-170",
+    "source": "Exam",
+    "question": "A DP mode whereby a vessel is automatically holding position relative to a surface installation or mobile subsea object that is moving is:",
+    "answers": [
+      { "text": "A Follow target / Follow sub.", "correct": true },
+      { "text": "B Minimum power / Weathervane.", "correct": false },
+      { "text": "C Track follows.", "correct": false },
+      { "text": "D Auto DP / Auto position.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-171",
+    "source": "Exam",
+    "question": "A DP system is considered to have 'redundancy' when the vessel has:",
+    "answers": [
+      { "text": "A More than one Positioning Reference System.", "correct": false },
+      { "text": "B The ability to maintain position and heading subsequent to a single point failure.", "correct": true },
+      { "text": "C More than one DP Operator Station.", "correct": false },
+      { "text": "D More than one Gyro Compass.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-172",
+    "source": "Exam",
+    "question": "A DP control system (Control Computers, Operator Station, etc.) is protected against a main power failure or fluctuations of the main power supply by:",
+    "answers": [
+      { "text": "A The UPS which filters the power.", "correct": true },
+      { "text": "B Having a backup DP control system.", "correct": false },
+      { "text": "C Power management system.", "correct": false },
+      { "text": "D Automatic voltage regulator on the generator.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-173",
+    "source": "Exam",
+    "question": "According to IMO MSC/Circ. 645 of 1994, for what time period should an Uninterruptible Power Supply (UPS) battery system power the DP computer system following a mains supply failure?",
+    "answers": [
+      { "text": "A A minimum of 15 minutes.", "correct": false },
+      { "text": "B A minimum of 30 seconds.", "correct": false },
+      { "text": "C A minimum of 30 minutes.", "correct": true },
+      { "text": "D The minimum time required for the emergency generator to switch in.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-174",
+    "source": "Exam",
+    "question": "By what means do classification societies assess the demonstration of fault tolerance within DP systems?",
+    "answers": [
+      { "text": "A The Failure Modes and Effect Analysis (FMEA).", "correct": true },
+      { "text": "B DP Operations Manual.", "correct": false },
+      { "text": "C Activity Specific Operating Guidance (ASOG).", "correct": false },
+      { "text": "D A HAZID / HAZOP study conducted as part of the vessel build process.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-175",
+    "source": "Exam",
+    "question": "How do you increase thrust with a Fixed Pitch Propeller?",
+    "answers": [
+      { "text": "A By changing the angle of attack of the propeller blades.", "correct": false },
+      { "text": "B By increasing the RPM.", "correct": true },
+      { "text": "C By changing the direction of rotation.", "correct": false },
+      { "text": "D All of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-176",
+    "source": "Exam",
+    "question": "How does a controllable pitch propeller work?",
+    "answers": [
+      { "text": "A RPM constant, propeller blades change angle of attack on the hub and direction of rotation reversed to go astern.", "correct": false },
+      { "text": "B RPM varies from zero to 100 percent, propeller blades fixed and direction of rotation reversed to go astern.", "correct": false },
+      { "text": "C RPM varies from zero to 100 percent, propeller blades fixed and direction of rotation constant.", "correct": false },
+      { "text": "D RPM constant, propeller blades change angle of attack on the hub and direction of rotation constant.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-177",
+    "source": "Exam",
+    "question": "If a DP system component fails, the loss of position and/or heading can be prevented by:",
+    "answers": [
+      { "text": "A Higher speed computers.", "correct": false },
+      { "text": "B The provision of redundancy.", "correct": true },
+      { "text": "C Calibration tests.", "correct": false },
+      { "text": "D More reliable processors.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-178",
+    "source": "Exam",
+    "question": "If the DP console on a Class 1 vessel has a total loss of power while the vessel is on Auto DP, the DPO can control the vessel's thrusters by switching to:",
+    "answers": [
+      { "text": "A Auto Track Mode.", "correct": false },
+      { "text": "B DP Autopilot Mode.", "correct": false },
+      { "text": "C Joystick Mode on the console.", "correct": false },
+      { "text": "D Independent Joystick control.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-179",
+    "source": "Exam",
+    "question": "If a Thruster (which is not connected to a Shaft Generator/Alternator) fails to full force, the DPO should immediately:",
+    "answers": [
+      { "text": "A Call the Master.", "correct": false },
+      { "text": "B Activate the Emergency Stop for the failed thruster.", "correct": true },
+      { "text": "C Deselect the failed thruster from the DP Operator Station.", "correct": false },
+      { "text": "D Inform the engine room.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-180",
+    "source": "Exam",
+    "question": "In the Universal Transverse Mercator (UTM) system, how many Zones are there?",
+    "answers": [
+      { "text": "A 24.", "correct": false },
+      { "text": "B 12.", "correct": false },
+      { "text": "C 60.", "correct": true },
+      { "text": "D 48.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-181",
+    "source": "Exam",
+    "question": "Should there be a severe system failure, such as the total loss of position or heading input to the system, a software function will maintain thruster output settings. This function is called:",
+    "answers": [
+      { "text": "A Model control or Dead Reckoning mode.", "correct": true },
+      { "text": "B Aerodynamic model.", "correct": false },
+      { "text": "C Thrust Allocation.", "correct": false },
+      { "text": "D Wind feed forward.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-182",
+    "source": "Exam",
+    "question": "On a Class 2 vessel with two switchboards, what should be done if there is a blackout on one side?",
+    "answers": [
+      { "text": "A Just close the tie breaker and keep working.", "correct": false },
+      { "text": "B Continue work and wait for approval from Charterer to stop work.", "correct": false },
+      { "text": "C Change to manual control as fast as possible.", "correct": false },
+      { "text": "D Don't change to manual if vessel is holding position and move to safe location.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-183",
+    "source": "Exam",
+    "question": "The online Consequence Analysis function:",
+    "answers": [
+      { "text": "A Determines the risk in the DP-planning process.", "correct": false },
+      { "text": "B Is required for Class 1, 2, and 3 vessels.", "correct": false },
+      { "text": "C Verifies continued thruster and power redundancy for Class 2 and 3 vessels.", "correct": true },
+      { "text": "D Calculates the vessel's capability to hold position in various wind conditions.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-184",
+    "source": "Exam",
+    "question": "The thrusters on a DP vessel control:",
+    "answers": [
+      { "text": "A Heave, Pitch and Surge.", "correct": false },
+      { "text": "B Heave, Pitch and Sway.", "correct": false },
+      { "text": "C Yaw, Heave and Roll.", "correct": false },
+      { "text": "D Surge, Sway and Yaw.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-185",
+    "source": "Exam",
+    "question": "The wind sensors are being fully blocked by the topside of a platform. What should you do?",
+    "answers": [
+      { "text": "A Remain in position and leave wind sensors selected.", "correct": false },
+      { "text": "B Suspend operations.", "correct": true },
+      { "text": "C Inform ETO.", "correct": false },
+      { "text": "D Move to windward side.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-186",
+    "source": "Exam",
+    "question": "To understand the consequences of failure in any redundant part of a DP system onboard a DP 2 or 3 vessel, the DP operator should be familiar with:",
+    "answers": [
+      { "text": "A The International Maritime Organisation MSC/Circ 645 of 1994 Guidelines for Vessels with Dynamic Positioning Systems.", "correct": false },
+      { "text": "B Standards of Training, Certification and Watchkeeping (STCW) Convention.", "correct": false },
+      { "text": "C Safety of Life at Sea (SOLAS) Convention.", "correct": false },
+      { "text": "D The Failure Modes and Effects Analysis (FMEA) document.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-187",
+    "source": "Exam",
+    "question": "Under which DP vessel Equipment Class is it possible that loss of position may occur in the event of a single fault?",
+    "answers": [
+      { "text": "A Class 1.", "correct": true },
+      { "text": "B Class 2.", "correct": false },
+      { "text": "C Class 3.", "correct": false },
+      { "text": "D None of them.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-188",
+    "source": "Exam",
+    "question": "What is the purpose of the 'Wind Feed Forward' facility?",
+    "answers": [
+      { "text": "A To give operator an indication of the direction of the wind on DP operator display.", "correct": false },
+      { "text": "B It feeds the wind effect into the DP model to allow the vessel to hold position.", "correct": true },
+      { "text": "C Smoothing out peaks and troughs in wind data.", "correct": false },
+      { "text": "D It is used to calculate the leeway when the DP system is in track follow mode.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-189",
+    "source": "Exam",
+    "question": "What is an FMEA with respect to a DP vessel?",
+    "answers": [
+      { "text": "A A manual that gives instructions on the operation of the DP system.", "correct": false },
+      { "text": "B A document which highlights failure modes of the DP system and their effects on operation.", "correct": true },
+      { "text": "C Company procedures for carrying out DP operations.", "correct": false },
+      { "text": "D Emergency procedures to deal with DP failures.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-190",
+    "source": "Exam",
+    "question": "What is a drift test?",
+    "answers": [
+      { "text": "A A drift test must be completed with thrusters turning in force bias condition.", "correct": false },
+      { "text": "B The vessel is stopped and allowed to drift outside 500 metres to ascertain the direction of drift.", "correct": true },
+      { "text": "C A drift test is calculating the drift using the tabulated current from the current tables.", "correct": false },
+      { "text": "D A drift test is done with active DP system at about 100 metres just prior to operations.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-191",
+    "source": "Exam",
+    "question": "What has a major negative effect on sound propagation in water when using a Hydroacoustic Position Reference (HPR) system?",
+    "answers": [
+      { "text": "A Seabed topography.", "correct": false },
+      { "text": "B Thruster noise.", "correct": true },
+      { "text": "C Water pressure.", "correct": false },
+      { "text": "D Water salinity.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-192",
+    "source": "Exam",
+    "question": "What is a Capability Diagram?",
+    "answers": [
+      { "text": "A The capability of the ship concerning the DP-classes.", "correct": false },
+      { "text": "B A tool for estimating the position-keeping capability of the ship.", "correct": true },
+      { "text": "C The time interval for plotting the vessel's position on the screen.", "correct": false },
+      { "text": "D A history track of the vessel's positions showing the vessel's offset.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-193",
+    "source": "Exam",
+    "question": "What determines the amount of thruster force used while operating in the joystick mode of operation?",
+    "answers": [
+      { "text": "A Wind force measurements.", "correct": false },
+      { "text": "B The number of generators on the switchboard.", "correct": false },
+      { "text": "C Joystick deflection and settings.", "correct": true },
+      { "text": "D Vessel classification.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-194",
+    "source": "Exam",
+    "question": "When the electrical power demand from the thrusters exceeds a set percentage of the online generating capacity what will happen?",
+    "answers": [
+      { "text": "A The vessel will have a blackout of one switchboard.", "correct": false },
+      { "text": "B The vessel will drift because of lack of power.", "correct": false },
+      { "text": "C Electrical power for thrusters will be reduced temporarily until additional generators are brought online.", "correct": true },
+      { "text": "D Thrusters will automatically be shut down to prevent a blackout.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-195",
+    "source": "Exam",
+    "question": "Which of the following includes 4 of the 7 main elements of a DP system?",
+    "answers": [
+      { "text": "A Safety equipment, thrusters, lifeboats and navigation lights.", "correct": false },
+      { "text": "B Thrusters, power supply, position reference systems and sensors.", "correct": true },
+      { "text": "C Loran, power supply, ballast system and thrusters.", "correct": false },
+      { "text": "D Sensors, stability calculator, position reference systems and magnetic compass.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-196",
+    "source": "Exam",
+    "question": "Which of the '6 degrees of freedom' for movements of a ship are controlled by the DP system?",
+    "answers": [
+      { "text": "A Pitch, Roll and Heave.", "correct": false },
+      { "text": "B Roll, Surge and Sway.", "correct": false },
+      { "text": "C Swell, Heading and Heave.", "correct": false },
+      { "text": "D Sway, Yaw and Surge.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-197",
+    "source": "Exam",
+    "question": "Which of the following affects the amount of thruster force used while maintaining station in the auto-position mode?",
+    "answers": [
+      { "text": "A Environmental forces acting on the vessel and excursion from set point, if any.", "correct": true },
+      { "text": "B Vessel IMO Equipment Class and Lloyds classification.", "correct": false },
+      { "text": "C Number of position reference systems in use.", "correct": false },
+      { "text": "D The class of operation being conducted.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-198",
+    "source": "Exam",
+    "question": "With the DP system set to the 'Auto Position' mode, the system will:",
+    "answers": [
+      { "text": "A Control the vessel's heading to achieve a minimum power configuration.", "correct": false },
+      { "text": "B Allow the DPO to manoeuvre the vessel using the Joystick control.", "correct": false },
+      { "text": "C Maintain the vessel's position and heading as closely as possible to the set-point values.", "correct": true },
+      { "text": "D Cause the vessel to automatically follow a predetermined track.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-199",
+    "source": "Exam",
+    "question": "Why may 'Prohibited azimuth zones' or 'azimuth barring' still be required when only one azimuth thruster is fitted?",
+    "answers": [
+      { "text": "A To prevent interference with acoustic devices on the hull such as echo sounder and Doppler Log transducers.", "correct": true },
+      { "text": "B To prevent interference with tunnel thrusters.", "correct": false },
+      { "text": "C To allow access to the Azimuth Thruster in dry dock.", "correct": false },
+      { "text": "D To make life easy for the engineers.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-200",
+    "source": "Exam",
+    "question": "For Equipment Class 3 vessels at least one of the PRS should be directly connected to which of the following?",
+    "answers": [
+      { "text": "A The acoustic system.", "correct": false },
+      { "text": "B The backup control system and separated by an A-60 class division from the other position reference systems.", "correct": true },
+      { "text": "C The backup control system and independent of the position reference systems.", "correct": false },
+      { "text": "D The independent joystick which is separated by an A-60 class division.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-201",
+    "source": "Exam",
+    "question": "How is Time to Terminate (TTT) calculated? (Ref: MTS)",
+    "answers": [
+      { "text": "A Time to Terminate (TTT) is calculated as the amount of time required to leave the 500m zone.", "correct": false },
+      { "text": "B Time to Terminate (TTT) is calculated as the amount of time required in an emergency to physically free the DP vessel from its operational activity following a DP abort status and allowing it to be manoeuvred clear and to proceed to safety.", "correct": true },
+      { "text": "C Time to Terminate (TTT) is calculated as the amount of time to restore the vessel after a blackout.", "correct": false },
+      { "text": "D Time to Terminate (TTT) is calculated by the consequence analyser and displayed on the operating station.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-202",
+    "source": "Exam",
+    "question": "How long should DP fault logs be kept on board?",
+    "answers": [
+      { "text": "A Records of all faults related to the DP system should be retained on board permanently.", "correct": false },
+      { "text": "B Investigation records and close outs should be retained on board for five years.", "correct": true },
+      { "text": "C Investigation records and close outs should be retained on board until the next class survey.", "correct": false },
+      { "text": "D Records of all faults related to the DP system should be retained on board until the next annual trials.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-203",
+    "source": "Exam",
+    "question": "How long should DP familiarisation and competency records be kept on board?",
+    "answers": [
+      { "text": "A All records relating to vessel-specific DP familiarisation and competency for key DP personnel including DPOs and technical DP personnel should be retained on board until the next annual trials.", "correct": false },
+      { "text": "B All records relating to vessel-specific DP familiarisation and competency for key DP personnel including DPOs and technical DP personnel should be retained on board for five years.", "correct": false },
+      { "text": "C All records relating to vessel-specific DP familiarisation and competency for key DP personnel including DPOs and technical DP personnel should be kept on board permanently.", "correct": true },
+      { "text": "D All records should be retained until the next crew change.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-204",
+    "source": "Exam",
+    "question": "How should vessels constructed prior to 9th June 2017 be treated with regards to their dynamic positioning systems and applicable IMO Guidelines?",
+    "answers": [
+      { "text": "A By providing a second DP control computer and three position references as defined by the relevant classification society.", "correct": false },
+      { "text": "B By providing backup systems remotely located from the main DP console, e.g. in a DP backup room.", "correct": false },
+      { "text": "C By providing an independent joystick that is capable of maintaining the vessel heading and position.", "correct": false },
+      { "text": "D By installation of multiple components, systems, or alternative means of performing a function.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-205",
+    "source": "Exam",
+    "question": "IMCA Station Keeping Bulletin 01/19 event 1 states 'It is not good practice to have 4 DGNSS selected to the DP controller, this could result in rejecting other selected systems if the DGNSS were to drift due to a common satellite problem.' What is the recommended mix of position reference systems for a DP Class 3 dive support vessel operating at 200m?",
+    "answers": [
+      { "text": "A 1 LBL acoustic array, 1 Artemis, 1 DARPS.", "correct": false },
+      { "text": "B 1 DGNSS, 1 USBL array, 2 DARPS.", "correct": false },
+      { "text": "C 2 DGNSS, 1 taut wire, 1 laser system.", "correct": false },
+      { "text": "D 2 DGNSS, 1 LBL acoustic array, 1 taut wire.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-206",
+    "source": "Exam",
+    "question": "Mechanical wind sensors can lose speed cups or direction devices seize. What failure modes are known to affect ultrasonic wind sensors?",
+    "answers": [
+      { "text": "A Induced noise in cabling systems, particularly from the vessel's MF antennas.", "correct": false },
+      { "text": "B Radio interference from GMDSS equipment is known to affect ultrasonic wind sensors and a distance separation of 10m is recommended from antennas.", "correct": false },
+      { "text": "C Periods of sunspot activity, eclipse and other celestial anomalies are known to cause disturbance to the sophisticated light phase shift measurement receiver.", "correct": false },
+      { "text": "D Rain, for instance during heavy squalls can cause an output loss.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-207",
+    "source": "Exam",
+    "question": "On Equipment Class 3 vessels what should ONE of each type of sensor be connected to?",
+    "answers": [
+      { "text": "A To the independent joystick.", "correct": false },
+      { "text": "B To the independent joystick and be separated by an A-60 class division from the other sensors.", "correct": false },
+      { "text": "C To the backup DP control systems.", "correct": false },
+      { "text": "D To the backup DP control systems and be separated by an A-60 class division from the other sensors.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-208",
+    "source": "Exam",
+    "question": "Safe working limits should be determined for each geographical location, expected environmental condition/force and appropriate task to be performed. What should these limits consider?",
+    "answers": [
+      { "text": "A Limiting factors are purely a factor of the vessel's design. Limits need not be considered for each geographical location.", "correct": false },
+      { "text": "B Limits should consider the failure modes of the power distribution system.", "correct": false },
+      { "text": "C Limits need to consider every failure mode covered by the FMEA and the likely time to restore position control and return to a safe situation.", "correct": true },
+      { "text": "D Limits need not be considered for each geographical location.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-209",
+    "source": "Exam",
+    "question": "The key elements of a fault tolerant design are performance, protection, and detection. What does 'protection' mean in this context?",
+    "answers": [
+      { "text": "A The prevention of partial or total blackout.", "correct": false },
+      { "text": "B The prevention of faults transferring from one redundancy group / sub system to another.", "correct": true },
+      { "text": "C The prevention of faults transferring between DP Control Computers.", "correct": false },
+      { "text": "D The prevention of faults transferring across power distribution systems.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-210",
+    "source": "Exam",
+    "question": "The operator controls on Equipment Class 2 and 3 vessels are designed so that no single inadvertent act on the operator panel will lead to which of the following conditions?",
+    "answers": [
+      { "text": "A A condition as defined by the ASOG that causes either a yellow or red status.", "correct": false },
+      { "text": "B Loss of position and/or heading.", "correct": true },
+      { "text": "C Loss of the DP consequence analysis.", "correct": false },
+      { "text": "D Loss of a thruster group that may cause a Worst-Case Failure Condition (WCF).", "correct": false }
+    ]
+  },
+  {
+    "id": "E-211",
+    "source": "Exam",
+    "question": "To which vessels does Section 4 of IMO MSC 1580 Guidelines for Vessels and Units with Dynamic Positioning (DP) Systems apply?",
+    "answers": [
+      { "text": "A All DP equipment class 3 vessels.", "correct": false },
+      { "text": "B All DP vessels.", "correct": false },
+      { "text": "C All DP vessels built after the adoption of IMO MSC 1580 Guidelines for Vessels and Units with Dynamic Positioning (DP) Systems - 16th June 2017.", "correct": true },
+      { "text": "D Only to DP Mobile Offshore Drilling Units (MODUs).", "correct": false }
+    ]
+  },
+  {
+    "id": "E-212",
+    "source": "Exam",
+    "question": "Under what scenario should DP capability plots be re-calculated or DP Footprints taken?",
+    "answers": [
+      { "text": "A Following the 5-year update of the DP FMEA and classification society certificate.", "correct": false },
+      { "text": "B After upgrade of DP software which has resulted in a change of the Kalman filter model.", "correct": false },
+      { "text": "C After a change in the location of antennas that will affect position reference system offset data.", "correct": false },
+      { "text": "D In the event of maintenance that renders a thruster unavailable.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-213",
+    "source": "Exam",
+    "question": "Under what potential scenario should DP capability plots be recalculated?",
+    "answers": [
+      { "text": "A After a change in the location of antennas that will affect position reference system offset data.", "correct": false },
+      { "text": "B Following the 5-year update of the DP FMEA and classification society certificate.", "correct": false },
+      { "text": "C Following the addition or removal of equipment (such as crane or accommodation module) which may alter the vessel's wind profile.", "correct": true },
+      { "text": "D After upgrade of DP software which has resulted in a change of the Kalman filter model.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-214",
+    "source": "Exam",
+    "question": "What course of action should be taken in the event that any configurations change in equipment set up such as UPS supplies?",
+    "answers": [
+      { "text": "A The FMEA should be updated prior to any changes in configuration that may affect redundancy groups.", "correct": false },
+      { "text": "B UPS supplies are more robust as they have battery support. However, changes should be recorded.", "correct": false },
+      { "text": "C A Management of Change process should be conducted in order to check the FMEA is not compromised.", "correct": true },
+      { "text": "D No configuration changes should be made.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-215",
+    "source": "Exam",
+    "question": "What is the single most effective way to prevent a loss of redundancy that may result in a vessel being unable to complete its mission?",
+    "answers": [
+      { "text": "A Effective Planned Maintenance.", "correct": false },
+      { "text": "B Good Design.", "correct": true },
+      { "text": "C Condition Monitoring of DP Equipment and Components.", "correct": false },
+      { "text": "D Conducting regular Proving and Annual DP Trials.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-216",
+    "source": "Exam",
+    "question": "What is the purpose of IMCA Industry Guidance?",
+    "answers": [
+      { "text": "A IMCA guidance is adopted by Flag State, but rarely enforced, as a set of standards that should be followed.", "correct": false },
+      { "text": "B IMCA Guidance is designed to promote good practice and support self regulation.", "correct": true },
+      { "text": "C IMCA guidance is adopted by Class Societies as a set of standards that support Class Rules.", "correct": false },
+      { "text": "D IMCA guidance is mandatory for all DP vessels.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-217",
+    "source": "Exam",
+    "question": "What is a hidden failure?",
+    "answers": [
+      { "text": "A A failure that is not immediately evident to operations or maintenance personnel and has the potential for failure of equipment to perform an on-demand function.", "correct": true },
+      { "text": "B A failure that is not detectable and may result in the loss of standby power supplies.", "correct": false },
+      { "text": "C A failure mode that cannot be physically seen until the consequences are apparent.", "correct": false },
+      { "text": "D A failure of standby battery systems which results in the battery being unable to deliver power when required.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-218",
+    "source": "Exam",
+    "question": "What equipment should be located at the DP control station?",
+    "answers": [
+      { "text": "A DP control and independent joystick control operator stations; vessel machinery control station; engine emergency stops; thruster emergency stops; internal communications; position power management control system.", "correct": true },
+      { "text": "B DP control and independent joystick control operator stations; manual thruster levers; mode change systems; thruster emergency stops; internal communications; position reference systems; HMI when considered necessary.", "correct": false },
+      { "text": "C IMO MSC 1580 does not state which equipment should or should not be fitted only that comprehensive control of the vessel's heading and position is managed.", "correct": false },
+      { "text": "D As defined by the DP equipment system manufacturer as part of equipment Type Test Notation.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-219",
+    "source": "Exam",
+    "question": "What should the initial survey of Equipment Class 2 and 3 DP vessels include?",
+    "answers": [
+      { "text": "A A desktop review of the vessel's FMEA and DP operations Manual.", "correct": false },
+      { "text": "B A complete survey of the DP system and Failure Mode Effect Analysis (FMEA) proving trials to ensure full compliance with the applicable parts of the Guidelines.", "correct": true },
+      { "text": "C Review of Failure Mode Effect Analysis (FMEA) approving trials in relation to redundancy groups and Worst-Case Failure (WCF) events.", "correct": false },
+      { "text": "D Attendance at the Failure Mode Effect Analysis (FMEA) proving trials to observe worst case failure testing.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-220",
+    "source": "Exam",
+    "question": "What is the purpose of an initial stabilisation period where the vessel is on DP but does not participate in any industrial mission activity?",
+    "answers": [
+      { "text": "A To allow time to establish and stabilise position reference systems and understand the effect of multipath particularly in connection with GNSS systems.", "correct": false },
+      { "text": "B To allow time to perform a field risk assessment, understand weather and exit routes.", "correct": false },
+      { "text": "C To allow a time when the DP model can 'learn' and become more accurate through a process called 'Kalman filtering'.", "correct": true },
+      { "text": "D To allow time for DPOs to operate the vessel in the DP joystick mode and understand prevailing weather effects prior to 500m zone entry.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-221",
+    "source": "Exam",
+    "question": "What should DP mobilisation trials demonstrate?",
+    "answers": [
+      { "text": "A DP mobilisation trials should demonstrate the operational integrity and performance of the ship's crew, and proving the vessel's ability to maintain position.", "correct": false },
+      { "text": "B DP mobilisation trials should demonstrate the operational integrity and performance of the vessel's DP system, confirming available thrust.", "correct": false },
+      { "text": "C DP mobilisation trials should demonstrate the operational integrity and performance of the vessel's DP system, confirming the vessel's redundancy concept and proving the vessel's ability to maintain position after suffering worst case failure.", "correct": true },
+      { "text": "D DP mobilisation trials should demonstrate the operational integrity and performance of the vessel's DP system, confirming the vessel's redundancy concept and proving the vessel's ability to recover following a blackout.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-222",
+    "source": "Exam",
+    "question": "What actions should the DPO take if a 'Self-Test Error - DP Controller A' alarm is generated on the DP Operating Station?",
+    "answers": [
+      { "text": "A The DPO should prepare to immediately terminate operations.", "correct": false },
+      { "text": "B The DPO should monitor the system for performance issues and ensure it is recorded in the DP Anomaly log for later investigation.", "correct": false },
+      { "text": "C The DPO should inform the Master, consult the ASOG and prepare for a possible DP Yellow activity termination.", "correct": true },
+      { "text": "D The DPO should inform the Master, consult the ASOG and prepare for a DP Blue Advisory alert.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-223",
+    "source": "Exam",
+    "question": "What other factors beyond environment, thrust availability, and hull form should be considered in the development of DP capability plots?",
+    "answers": [
+      { "text": "A Correction factors developed during verification testing at sea trials.", "correct": false },
+      { "text": "B Antenna offsets that require correction through Position Reference Systems (PRS).", "correct": false },
+      { "text": "C Power generation; step change reaction of engines.", "correct": false },
+      { "text": "D Thruster interaction; thruster degradation; thruster barred zones.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-224",
+    "source": "Exam",
+    "question": "When should vessel DP location set-up checks be completed?",
+    "answers": [
+      { "text": "A DP Location Set-up Checks should be carried out on arrival at the field. Where the vessel is to visit a number of offshore installations on a voyage then these checks need not be repeated as long as the ASOG does not change.", "correct": false },
+      { "text": "B DP Location Set-up Checks should be carried out on arrival at the field and conducted outside the 100 metre safety zone. The checks should be repeated when the vessel returns to the field after an absence of more than 48 hours.", "correct": false },
+      { "text": "C DP Location Set-up Checks should be carried out on arrival at the field and conducted outside the 500 metre safety zone. The checks should be repeated when the vessel returns to the field after an absence of more than 72 hours.", "correct": false },
+      { "text": "D DP Location Set-up Checks should be carried out at every working location. Where the vessel is to visit a number of offshore installations on a voyage then these checks should be carried out every time the vessel changes from transit mode to auto DP mode.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-225",
+    "source": "Exam",
+    "question": "When should DP mobilisation trials be carried out?",
+    "answers": [
+      { "text": "A DP mobilisation trials should be carried out by the vessel prior to the start of operations for a new client.", "correct": true },
+      { "text": "B DP mobilisation trials should be carried out by the vessel on field arrival.", "correct": false },
+      { "text": "C DP mobilisation trials should be carried out by the vessel after crew change over.", "correct": false },
+      { "text": "D DP mobilisation trials should be carried out by the vessel after refit.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-226",
+    "source": "Exam",
+    "question": "When should vessels operating in Equipment Class 2 or 3 terminate operations?",
+    "answers": [
+      { "text": "A When the environmental conditions or forecast are such that the DP vessel will no longer be able to keep position if a WCF event as identified in the FMEA occurs.", "correct": true },
+      { "text": "B When the environmental conditions are such that the DP vessel will no longer be able to keep position with all thrust available.", "correct": false },
+      { "text": "C When the environmental conditions are such that the DP vessel will no longer be able to keep position after the loss of one ENGINE.", "correct": false },
+      { "text": "D When the environmental conditions are such that the DP vessel will no longer be able to keep position after the loss of ONE thruster.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-227",
+    "source": "Exam",
+    "question": "When will the consequence analysis NOT work correctly?",
+    "answers": [
+      { "text": "A During a movement in the DP mode.", "correct": false },
+      { "text": "B When the DP joystick is engaged.", "correct": false },
+      { "text": "C When the predefined worst-case failure has been incorrectly defined.", "correct": true },
+      { "text": "D When the vessel is being operated from the backup Operating Station.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-228",
+    "source": "Exam",
+    "question": "What should failure of a thruster system including pitch, azimuth and/or speed control result in?",
+    "answers": [
+      { "text": "A No increase in thrust magnitude or change in thrust direction (fail as set or fail to zero).", "correct": true },
+      { "text": "B A consequence analysis alarm posted at the DP OS.", "correct": false },
+      { "text": "C The thruster fault alarm being posted at the integrated automation system.", "correct": false },
+      { "text": "D A prediction alarm posted on the DP OS.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-229",
+    "source": "Exam",
+    "question": "Which of the following is a suitable mix of position reference systems for LIFTING activities that may be in proximity to other offshore structures and in greater than 350m depth?",
+    "answers": [
+      { "text": "A Acoustic (LBL); Taut Wire; DGNSS.", "correct": true },
+      { "text": "B Artemis; Acoustic (LBL); GPS.", "correct": false },
+      { "text": "C Acoustic (SBL); DARPS; DGNSS.", "correct": false },
+      { "text": "D DGNSS; Acoustic (SBL); Radar.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-230",
+    "source": "Exam",
+    "question": "Which of the following is a suitable mix of position reference systems for SUPPLY OPERATIONS DURING LIFTING activities in greater than 350m depth?",
+    "answers": [
+      { "text": "A Taut Wire; Laser; Radar.", "correct": false },
+      { "text": "B Acoustic; Laser; DARPS.", "correct": false },
+      { "text": "C Acoustic; Laser; Radar.", "correct": true },
+      { "text": "D DGNSS; Taut Wire; Radar.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-231",
+    "source": "Exam",
+    "question": "Which of the following is a suitable mix of position reference systems for PIPE LAYING activities that are in proximity to other offshore structures and in less than 350m depth?",
+    "answers": [
+      { "text": "A DGNSS; Taut Wire; Radar.", "correct": false },
+      { "text": "B DGNSS; Radar; DARPS.", "correct": false },
+      { "text": "C DGNSS; Acoustics (LBL); Radar.", "correct": false },
+      { "text": "D DGNSS; Laser; Radar.", "correct": true }
+    ]
+  },
+  {
+    "id": "E-232",
+    "source": "Exam",
+    "question": "With respect to the DP FMEA how should proposed changes to systems or equipment be handled?",
+    "answers": [
+      { "text": "A Engage Class to approve the changes.", "correct": false },
+      { "text": "B Risk Assess as part of a formal Management of Change process and develop an appropriate implementation path as required.", "correct": true },
+      { "text": "C Implemented only after a new FMEA has been written.", "correct": false },
+      { "text": "D Tested at the next annual trials period to confirm redundancy effect.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-233",
+    "source": "Exam",
+    "question": "Who is the best equipped to author Activity Specific Operating Guidance (ASOG)?",
+    "answers": [
+      { "text": "A The field owner / operator who understands the location, develops the ASOG using the vessel's DP FMEA, DP Operations manual and other documentation.", "correct": false },
+      { "text": "B Vessel staff who understand the operation and will be expected to implement the guide are the best equipped to develop and own the ASOG using data provided by the field operator such as weather and current data.", "correct": true },
+      { "text": "C The vessel owner has a relationship with both the vessel and the Client. They are best equipped to develop the ASOG and control its implementation onboard.", "correct": false },
+      { "text": "D An independent Third Party that wrote the DP FMEA is the best equipped to develop the ASOG as they technically understand the vessel and are independent.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-234",
+    "source": "Exam",
+    "question": "Why are different elevation masks recommended for multiple DGPS units in operation?",
+    "answers": [
+      { "text": "A So that Horizontal Dilution of Position (HDOP) are different across systems improving performance against the effects of scintillation.", "correct": false },
+      { "text": "B So that there is a mix of satellite geometry across systems improving performance during periods of sunspot activity.", "correct": false },
+      { "text": "C So that a common mode position jump does not occur across multiple position references as satellites drop / emerge into view.", "correct": true },
+      { "text": "D So that Vertical Dilution of Position effects (VDOP) do not occur causing WGS-84 horizontal positional errors.", "correct": false }
+    ]
+  },
+  {
+    "id": "E-235",
+    "source": "Exam",
+    "question": "A DP Capability Plot:",
+    "answers": [
+      { "text": "A Shows a trace of an actual DP vessel's position over a period of time.", "correct": false },
+      { "text": "B Is a diagram indicating the class of the vessel.", "correct": false },
+      { "text": "C Gives an exact indication of the capability of a DP vessel under a variety of conditions (as stated on the plot).", "correct": false },
+      { "text": "D Gives an approximate indication of the capability of a DP vessel under a variety of conditions (as stated on the plot).", "correct": true }
+    ]
+  },
+  {
+    "id": "E-236",
+    "source": "Exam",
+    "question": "Excursions about a set point are expected when operating on DP. For a vessel working to DP Class 2 requirements, which of the following would you expect NOT to increase the excursions?",
+    "answers": [
+      { "text": "A Loss of half the available thrusters.", "correct": true },
+      { "text": "B Position reference sensor variability.", "correct": false },
+      { "text": "C Incorrect control system tuning.", "correct": false },
+      { "text": "D A change in the environmental conditions.", "correct": false }
     ]
   }
 ]
